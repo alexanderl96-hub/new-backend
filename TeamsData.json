@@ -3,7 +3,8 @@
        {  
            "id": "1",
            "name": "New York Yankees",
-           "imag": "/imagen/nyICon.png",
+           "nickname": "",
+           "imag": "/imagen/NY/nyICon.png",
            "newYorkYankees": [
                { 
                    "id": "1",
@@ -16,6 +17,7 @@
                    "age": "29 years",
                    "height": "6'7, (201cm)",
                    "weight": "282 lbs, (127kg)",
+                   "currentTeam": "",
                    "salary": "10.18 million USD (2021)",
                    "number": "99",
                    "education": "`Linden High School`, `California State University`, `Fresno`",
@@ -44,6 +46,7 @@
                },{
                 "id": "2",
                 "name": "Josh Adam Donaldson",
+                "nickname": "",
                 "pic": "/imagen/NY/Players/JoshDonaldson.jpeg",
                 "born": "December 8, 1985",
                 "city": "Pensacola",
@@ -52,6 +55,7 @@
                 "age": "36 years",
                 "height": "6'1, (185cm)",
                 "weight": "210 lbs, (95kg)",
+                "currentTeam": "",
                 "salary": "21 million USD (2020)",
                 "number": "28",
                 "education": "`Pace High School`, `Auburn University`, `Faith Academy`",
@@ -79,6 +83,7 @@
                },{
                 "id": "3",
                 "name": "Albertín Aroldis Chapman de la Cruz",
+                "nickname": "",
                 "pic": "/imagen/NY/Players/AroldisChapman.jpeg",
                 "born": "February 28, 1988",
                 "city": "Holguin",
@@ -87,6 +92,7 @@
                 "age": "34 years",
                 "height": "6'4, (cm)",
                 "weight": " ,(kg)",
+                "currentTeam": "",
                 "salary": "15 million USD (2020)",
                 "number": "54",
                 "education": "",
@@ -114,6 +120,7 @@
                },{
                 "id": "4",
                 "name": "Aaron John Boone",
+                "nickname": "",
                 "pic": "/imagen/NY/Staff/AaronBoone.jpeg",
                 "born": "March 9, 1973",
                 "city": "La Mesa",
@@ -122,6 +129,7 @@
                 "age": "49 years",
                 "height": "6'2, (cm)",
                 "weight": ", (kg)",
+                "currentTeam": "",
                 "salary": "",
                 "number": "",
                 "education": "",
@@ -151,24 +159,29 @@
        },{
         "id": "2",
         "name": "New York Mets",
-        "imag": "/imagen/metsICon.png",
+        "imag": "/imagen/Mets/metsICon.png",
         "newYorkMets": [
             {
                 "id": "1",
-                "name": " ",
-                "pic": "/imagen/Mets/players/AaronJudge.jpeg",
-                "born": "",
-                "age": "",
-                "height": "",
-                "weight": "",
-                "salary": "",
-                "number": "",
-                "education": "",
-                "spouse": "",
-                "parents": "",
+                "name": "Maxwell Martin Scherzer",
+                "nickname": "Brown Eye",
+                "pic": "/imagen/Mets/Players/MaxScherzer.jpeg",
+                "born": "July 27, 1984",
+                "city": "Chesterfield",
+                "state": "MO",
+                "country": "USA",
+                "age": "37 years",
+                "height": "6'3, (cm)",
+                "weight": ", (kg)",
+                "currentTeam": "New York Mets",
+                "salary": "15 million USD (2016)",
+                "number": "21",
+                "education": "`Parkway Central High School`, `University of Missouri`",
+                "spouse": "`Erica May-Scherzer` (m. 2013)",
+                "parents": "`Brad Scherzer`, `Jan Scherzer`",
                 "children": "",
                 "siblings": "",
-                "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                "about": "Maxwell Martin Scherzer is an American professional baseball pitcher for the New York Mets of Major League Baseball. He previously played in MLB for the Arizona Diamondbacks, Detroit Tigers, Washington Nationals and Los Angeles Dodgers.",
                 "players": [
                     {
                         "stats": [
@@ -178,7 +191,7 @@
                         ],
                         "field": [
                             {
-                              "position": "",
+                              "position": "Pitcher",
                               "bats": "",
                               "throws": ""
                             }
@@ -186,20 +199,25 @@
                     }
                 ]
             },{ "id": "2",
-                "name": " ",
-                "pic": "/imagen/NY/players/AaronJudge.jpeg",
-                "born": "",
-                "age": "",
-                "height": "",
-                "weight": "",
-                "salary": "",
-                "number": "",
-                "education": "",
-                "spouse": "",
+                "name": "Jacob Anthony deGrom",
+                "nickname": "The deGrominator",
+                "pic": "/imagen/Mets/Players/JacobdeGrom.png",
+                "born": "June 19, 1988",
+                "city": "DeLand",
+                "state": "FL",
+                "country": "USA",
+                "age": "33 years",
+                "height": "6'4, (193cm)",
+                "weight": "185 lbs, (83kg)",
+                "currentTeam": "New York Mets",
+                "salary": "33.5 million USD (2022)",
+                "number": "48",
+                "education": "`Stetson University`, `Christian Academy`",
+                "spouse": "`Stacey Harris` (m. 2014)",
                 "parents": "",
                 "children": "",
                 "siblings": "",
-                "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                "about": "Jacob Anthony deGrom, nicknamed `The deGrominator`, is an American professional baseball pitcher for the New York Mets of Major League Baseball. Prior to playing professionally, deGrom attended Stetson University and played college baseball for the Stetson Hatters.",
                 "players": [
                     {
                         "stats": [
@@ -209,27 +227,32 @@
                         ],
                         "field": [
                             {
-                              "position": "",
-                              "bats": "",
-                              "throws": ""
+                              "position": "Pitcher",
+                              "bats": "Left",
+                              "throws": "Right"
                             }
                         ]
                     }
                 ]},{ "id": "3",
-                    "name": " ",
-                    "pic": "/imagen/NY/players/AaronJudge.jpeg",
-                    "born": "",
-                    "age": "",
+                    "name": "Christopher M. Bassitt",
+                    "nickname": "C Bass",
+                    "pic": "/imagen/Mets/Players/ChrisBassitt.png",
+                    "born": "February 22, 1989",
+                    "city": "Curtice",
+                    "state": "OH",
+                    "country": "USA",
+                    "age": "33 years",
                     "height": "",
                     "weight": "",
-                    "salary": "",
+                    "currentTeam": "New York Mets",
+                    "salary": "510,000 USD (2016)",
                     "number": "",
-                    "education": "",
+                    "education": "`Genoa Area High School`",
                     "spouse": "",
                     "parents": "",
                     "children": "",
-                    "siblings": "",
-                    "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                    "siblings": "``Matt Bassitt",
+                    "about": "Christopher M. Bassitt is an American professional baseball pitcher for the New York Mets of Major League Baseball. He made his MLB debut with the Chicago White Sox in 2014 and played for the Oakland Athletics from 2015 to 2021.",
                     "players": [
                         {
                             "stats": [
@@ -239,27 +262,32 @@
                             ],
                             "field": [
                                 {
-                                  "position": "",
+                                  "position": "Pitcher",
                                   "bats": "",
                                   "throws": ""
                                 }
                             ]
                         }
                     ]},{ "id": "4",
-                        "name": " ",
-                        "pic": "/imagen/NY/players/AaronJudge.jpeg",
-                        "born": "",
-                        "age": "",
-                        "height": "",
-                        "weight": "",
+                        "name": "William Nathaniel Showalter III",
+                        "nickname": "Buck",
+                        "pic": "/imagen/Mets/Staff/BuckShowalter.jpeg",
+                        "born": "May 23, 1956",
+                        "city": "DeFuniak Springs",
+                        "state": "FL",
+                        "country": "USA",
+                        "age": "65 years",
+                        "height": "5'10, (cm)",
+                        "weight": ", (kg)",
+                        "currentTeam": "New York Mets",
                         "salary": "",
                         "number": "",
                         "education": "",
-                        "spouse": "",
-                        "parents": "",
-                        "children": "",
+                        "spouse": "`Angela Showalter` (m. 1983)",
+                        "parents": "`William Nathaniel Showalter`, `Lina Carrie Showalter`",
+                        "children": "`Nathan Showalter`, `Allie Showalter`",
                         "siblings": "",
-                        "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                        "about": "William Nathaniel `Buck` Showalter III is an American professional baseball manager for the New York Mets of Major League Baseball. Previously, he served as manager of the New York Yankees, Arizona Diamondbacks, Texas Rangers, and Baltimore Orioles.",
                         "players": [
                             {
                                 "stats": [
@@ -269,7 +297,7 @@
                                 ],
                                 "field": [
                                     {
-                                      "position": "",
+                                      "position": "Team Coached",
                                       "bats": "",
                                       "throws": ""
                                     }
@@ -280,24 +308,29 @@
        },{
         "id": "3",
         "name": "Boston Red Sox",
-        "imag": "/imagen/redICon.png",
+        "imag": "/imagen/RedSox/redICon.webp",
         "bostonRedSox": [
             {
                 "id": "1",
-                "name": " ",
-                "pic": "/imagen/RedSox/players/AaronJudge.jpeg",
-                "born": "",
-                "age": "",
-                "height": "",
+                "name": "Trevor John Story",
+                "nickname": "True",
+                "pic": "/imagen/RedSox/Players/TrevorStory.jpeg",
+                "born": "November 15, 1992",
+                "city": "Irving",
+                "state": "TX",
+                "country": "USA",
+                "age": "29 years",
+                "height": "6'2, (cm)",
                 "weight": "",
-                "salary": "",
-                "number": "",
-                "education": "",
+                "currentTeam": "Boston Red Sox",
+                "salary": "17.5 million USD (2021)",
+                "number": "10",
+                "education": "`Irving High School`, `Louisiana State University`",
                 "spouse": "",
-                "parents": "",
+                "parents": "`Teddie Story`, `Ken Story`",
                 "children": "",
-                "siblings": "",
-                "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                "siblings": "Tyler Story",
+                "about": "Trevor John Story is an American professional baseball second baseman for the Boston Red Sox of Major League Baseball. He has previously played in MLB for the Colorado Rockies. He made his MLB debut in 2016.",
                 "players": [
                     {
                         "stats": [
@@ -307,7 +340,7 @@
                         ],
                         "field": [
                             {
-                              "position": "",
+                              "position": "Shotstop",
                               "bats": "",
                               "throws": ""
                             }
@@ -315,20 +348,25 @@
                     }
                 ]
             },{ "id": "2",
-                "name": " ",
-                "pic": "/imagen/NY/players/AaronJudge.jpeg",
-                "born": "",
-                "age": "",
-                "height": "",
-                "weight": "",
-                "salary": "",
-                "number": "",
+                "name": "Enrique Javier Hernández",
+                "nickname": "Kike",
+                "pic": "/imagen/RedSox/Players/EnriqueHernandez.jpeg",
+                "born": "August 24, 1991",
+                "city": "San Juan",
+                "state": "",
+                "country": "Puerto Rico",
+                "age": "30 years",
+                "height": "5'11, (cm)",
+                "weight": ", (kg)",
+                "currentTeam": "Boston Red Sox",
+                "salary": "520,000 USD (2016)",
+                "number": "5",
                 "education": "",
-                "spouse": "",
-                "parents": "",
+                "spouse": "Mariana Vicente (m. 2018)",
+                "parents": " `Enrique Hernández Sr.`, `Monica Gonzalez`",
                 "children": "",
                 "siblings": "",
-                "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                "about": "Enrique Javier `Kike` Hernández is a Puerto Rican professional baseball utility player for the Boston Red Sox of Major League Baseball. He previously played in MLB for the Houston Astros, Miami Marlins and Los Angeles Dodgers.",
                 "players": [
                     {
                         "stats": [
@@ -338,27 +376,32 @@
                         ],
                         "field": [
                             {
-                              "position": "",
+                              "position": "Second Baseman",
                               "bats": "",
                               "throws": ""
                             }
                         ]
                     }
                 ]},{ "id": "3",
-                    "name": " ",
-                    "pic": "/imagen/NY/players/AaronJudge.jpeg",
-                    "born": "",
-                    "age": "",
-                    "height": "",
-                    "weight": "",
-                    "salary": "",
-                    "number": "",
-                    "education": "",
-                    "spouse": "",
-                    "parents": "",
-                    "children": "",
+                    "name": "Jackie Bradley Jr.",
+                    "nickname": "JBJ",
+                    "pic": "/imagen/RedSox/Players/JackieBradley.jpeg",
+                    "born": "April 19, 1990",
+                    "city": "Richmond",
+                    "state": "VA",
+                    "country": "USA",
+                    "age": "32 years",
+                    "height": "5'10, (cm)",
+                    "weight": "200 lbs, (kg)",
+                    "currentTeam": "Boston Red Sox",
+                    "salary": "6.1 million USD (2018)",
+                    "number": "19",
+                    "education": "`Prince George High School`, `University of South Carolina`",
+                    "spouse": "Erin Helring (m. 2013)",
+                    "parents": "`Jackie Bradley, Sr`, `Alfreda Hagans`",
+                    "children": "Emerson Bradley",
                     "siblings": "",
-                    "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                    "about": "Jackie Bradley Jr., nicknamed `JBJ`, is an American professional baseball right fielder for the Boston Red Sox of Major League Baseball. He previously played for the Milwaukee Brewers. Listed at 5 feet 10 inches and 200 pounds, he bats left and throws right-handed.",
                     "players": [
                         {
                             "stats": [
@@ -368,27 +411,32 @@
                             ],
                             "field": [
                                 {
-                                  "position": "",
+                                  "position": "Center Fielder",
                                   "bats": "",
                                   "throws": ""
                                 }
                             ]
                         }
                     ]},{ "id": "4",
-                        "name": " ",
-                        "pic": "/imagen/NY/players/AaronJudge.jpeg",
-                        "born": "",
-                        "age": "",
+                        "name": "Jose Alexander Cora",
+                        "nickname": "",
+                        "pic": "/imagen/RedSox/Staff/AlexCora.jpeg",
+                        "born": "October 18, 1975",
+                        "city": "Caguas",
+                        "state": "",
+                        "country": "Puerto Rico",
+                        "age": "46 years",
                         "height": "",
                         "weight": "",
+                        "currentTeam": "Boston Red Sox",
                         "salary": "",
-                        "number": "",
+                        "number": "20",
                         "education": "",
-                        "spouse": "",
+                        "spouse": "Nilda Cora",
                         "parents": "",
-                        "children": "",
-                        "siblings": "",
-                        "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                        "children": "`Camila Cora`, `Jeriel Cora`",
+                        "siblings": "Joey Cora",
+                        "about": "Jose Alexander Cora is a Puerto Rican baseball manager and former infielder who is the manager of the Boston Red Sox in Major League Baseball. He previously played in MLB for 14 seasons with the Red Sox, Los Angeles Dodgers, Cleveland Indians, New York Mets, Texas Rangers, and Washington Nationals.",
                         "players": [
                             {
                                 "stats": [
@@ -398,7 +446,7 @@
                                 ],
                                 "field": [
                                     {
-                                      "position": "",
+                                      "position": "Team Coached / Infielder",
                                       "bats": "",
                                       "throws": ""
                                     }
@@ -409,24 +457,29 @@
        },{
         "id": "4",
         "name": "Los Angels Dodgers",
-        "imag": "/imagen/dodICon.png",
+        "imag": "/imagen/Angels/dodICon.webp",
         "losAngeslDodgers": [
             {
                 "id": "1",
-                "name": " ",
-                "pic": "/imagen/Angels/players/AaronJudge.jpeg",
-                "born": "",
-                "age": "",
-                "height": "",
-                "weight": "",
-                "salary": "",
-                "number": "",
-                "education": "",
-                "spouse": "",
+                "name": "Frederick Charles Freeman",
+                "nickname": "Phillip",
+                "pic": "/imagen/Angels/Players/FreddieFreeman.jpeg",
+                "born": "September 12, 1989",
+                "city": "Fountain Valley",
+                "state": "CA",
+                "country": "USA",
+                "age": "32 years",
+                "height": "6'5, (cm)",
+                "weight": ", (kg)",
+                "currentTeam": "Los Angels Dodgers",
+                "salary": "12 million USD (2016)",
+                "number": "5",
+                "education": "El Modena High School",
+                "spouse": "Chelsea Freeman (m. 2014)",
                 "parents": "",
-                "children": "",
+                "children": "`Maximus Turner Freeman`, `Brandon John Freeman`, `Frederick Charles Freeman II`",
                 "siblings": "",
-                "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                "about": "Frederick Charles Freeman is an American professional baseball first baseman for the Los Angeles Dodgers of Major League Baseball. Previously, Freeman played for the Atlanta Braves for 12 seasons. He made his MLB debut in 2010 and is a five-time MLB All-Star.",
                 "players": [
                     {
                         "stats": [
@@ -436,7 +489,7 @@
                         ],
                         "field": [
                             {
-                              "position": "",
+                              "position": "First Baseman",
                               "bats": "",
                               "throws": ""
                             }
@@ -444,17 +497,22 @@
                     }
                 ]
             },{ "id": "2",
-                "name": " ",
-                "pic": "/imagen/NY/players/AaronJudge.jpeg",
-                "born": "",
-                "age": "",
-                "height": "",
-                "weight": "",
-                "salary": "",
-                "number": "",
-                "education": "",
+                "name": "Trevor Andrew Bauer",
+                "nickname": "",
+                "pic": "/imagen/Angels/Players/TrevorBauer.jpeg",
+                "born": "January 17, 1991",
+                "city": "North Hollywood",
+                "state": "CA",
+                "country": "USA",
+                "age": "31 years",
+                "height": "6'1, (185cm)",
+                "weight": "205 lbs, (92kg)",
+                "currentTeam": "Los Angels Dodgers",
+                "salary": "28 million USD (2021)",
+                "number": "27",
+                "education": "`University of California, Los Angeles`, `Hart High School`",
                 "spouse": "",
-                "parents": "",
+                "parents": "`Warren Bauer`, `Kathy Bauer`",
                 "children": "",
                 "siblings": "",
                 "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
@@ -467,27 +525,32 @@
                         ],
                         "field": [
                             {
-                              "position": "",
+                              "position": "Pitcher",
                               "bats": "",
                               "throws": ""
                             }
                         ]
                     }
                 ]},{ "id": "3",
-                    "name": " ",
-                    "pic": "/imagen/NY/players/AaronJudge.jpeg",
-                    "born": "",
-                    "age": "",
-                    "height": "",
-                    "weight": "",
-                    "salary": "",
+                    "name": "Cody James Bellinger",
+                    "nickname": "",
+                    "pic": "/imagen/Angels/Players/CodyBellinger.jpeg",
+                    "born": "July 13, 1995",
+                    "city": "Scottsdale",
+                    "state": "AZ",
+                    "country": "USA",
+                    "age": "26 years",
+                    "height": "6'4, (193cm)",
+                    "weight": "203 lbs, (92kg)",
+                    "currentTeam": "Los Angels Dodgers",
+                    "salary": "16.1 million USD (2021)",
                     "number": "",
-                    "education": "",
+                    "education": "Hamilton High School",
                     "spouse": "",
-                    "parents": "",
+                    "parents": "`Clay Bellinger`, `Jennifer Bellinger`",
                     "children": "",
-                    "siblings": "",
-                    "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                    "siblings": "`Cole Bellinger`, `Ashli Bellinger`",
+                    "about": "Cody James Bellinger is an American professional baseball outfielder and first baseman for the Los Angeles Dodgers of Major League Baseball. He was selected by the Dodgers in the fourth round of the 2013 MLB draft, and debuted with the team in 2017.",
                     "players": [
                         {
                             "stats": [
@@ -497,27 +560,32 @@
                             ],
                             "field": [
                                 {
-                                  "position": "",
-                                  "bats": "",
-                                  "throws": ""
+                                  "position": "Outfielder & First Baseman",
+                                  "bats": "Left",
+                                  "throws": "Left"
                                 }
                             ]
                         }
                     ]},{ "id": "4",
-                        "name": " ",
-                        "pic": "/imagen/NY/players/AaronJudge.jpeg",
-                        "born": "",
-                        "age": "",
-                        "height": "",
-                        "weight": "",
+                        "name": "David Ray Roberts",
+                        "nickname": "Doc",
+                        "pic": "/imagen/Angels/Staff/DaveRoberts.jpeg",
+                        "born": "May 31, 1972",
+                        "city": "Naha",
+                        "state": "Okinawa",
+                        "country": "Japan",
+                        "age": "49 years",
+                        "height": "5'10, (cm)",
+                        "weight": ", (kg)",
+                        "currentTeam": "Los Angels Dodgers",
                         "salary": "",
                         "number": "",
                         "education": "",
-                        "spouse": "",
-                        "parents": "",
-                        "children": "",
+                        "spouse": "Triacia Roberts (m. 1997)",
+                        "parents": "`Eiko Roberts`, `Waymon Roberts`",
+                        "children": "`Cole Roberts`, `Emmerson Roberts`",
                         "siblings": "",
-                        "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                        "about": "David Ray Roberts, nicknamed `Doc`, is a Japanese-born American professional baseball manager and former outfielder who is the manager of the Los Angeles Dodgers of Major League Baseball.",
                         "players": [
                             {
                                 "stats": [
@@ -527,7 +595,7 @@
                                 ],
                                 "field": [
                                     {
-                                      "position": "",
+                                      "position": "Team Coached / Manager",
                                       "bats": "",
                                       "throws": ""
                                     }
@@ -543,11 +611,16 @@
             {
                 "id": "1",
                 "name": " ",
+                "nickname": "",
                 "pic": "/imagen/NY/players/AaronJudge.jpeg",
                 "born": "",
+                "city": "",
+                "state": "",
+                "country": "USA",
                 "age": "",
                 "height": "",
                 "weight": "",
+                "currentTeam": "",
                 "salary": "",
                 "number": "",
                 "education": "",
@@ -574,11 +647,16 @@
                 ]
             },{ "id": "2",
                 "name": " ",
+                "nickname": "",
                 "pic": "/imagen/NY/players/AaronJudge.jpeg",
                 "born": "",
+                "city": "",
+                "state": "",
+                "country": "USA",
                 "age": "",
                 "height": "",
                 "weight": "",
+                "currentTeam": "",
                 "salary": "",
                 "number": "",
                 "education": "",
@@ -604,11 +682,16 @@
                     }
                 ]},{ "id": "3",
                     "name": " ",
+                    "nickname": "",
                     "pic": "/imagen/NY/players/AaronJudge.jpeg",
                     "born": "",
+                    "city": "",
+                    "state": "",
+                    "country": "USA",
                     "age": "",
                     "height": "",
                     "weight": "",
+                    "currentTeam": "",
                     "salary": "",
                     "number": "",
                     "education": "",
@@ -634,11 +717,16 @@
                         }
                     ]},{ "id": "4",
                         "name": " ",
+                        "nickname": "",
                         "pic": "/imagen/NY/players/AaronJudge.jpeg",
                         "born": "",
+                        "city": "",
+                        "state": "",
+                        "country": "USA",
                         "age": "",
                         "height": "",
                         "weight": "",
+                        "currentTeam": "",
                         "salary": "",
                         "number": "",
                         "education": "",
