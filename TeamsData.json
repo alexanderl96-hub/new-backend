@@ -4,7 +4,7 @@
            "id": "1",
            "name": "New York Yankees",
            "nickname": "",
-           "imag": "/imagen/NY/nyICon.png",
+           "imag": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mlb.com%2Fyankees&psig=AOvVaw2YRotghoW7I8NYFGY02nPz&ust=1650689197289000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPip68vupvcCFQAAAAAdAAAAABAD",
            "newYorkYankees": [
                { 
                    "id": "1",
