@@ -752,6 +752,304 @@
                             }
                         ]}
         ]
+       },{
+        "id": "6",
+        "name": "Washington Nationals",
+        "imag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Washington_Nationals_logo.svg/1200px-Washington_Nationals_logo.svg.png",
+        "atlantaBraves": [
+            {
+                "id": "1",
+                "name": " ",
+                "nickname": "",
+                "pic": "/imagen/NY/players/AaronJudge.jpeg",
+                "born": "",
+                "city": "",
+                "state": "",
+                "country": "USA",
+                "age": "",
+                "height": "",
+                "weight": "",
+                "currentTeam": "",
+                "salary": "",
+                "number": "",
+                "education": "",
+                "spouse": "",
+                "parents": "",
+                "children": "",
+                "siblings": "",
+                "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                "players": [
+                    {
+                        "stats": [
+                            {
+
+                            }
+                        ],
+                        "field": [
+                            {
+                              "position": "",
+                              "bats": "",
+                              "throws": ""
+                            }
+                        ]
+                    }
+                ]
+            },{ "id": "2",
+                "name": " ",
+                "nickname": "",
+                "pic": "/imagen/NY/players/AaronJudge.jpeg",
+                "born": "",
+                "city": "",
+                "state": "",
+                "country": "USA",
+                "age": "",
+                "height": "",
+                "weight": "",
+                "currentTeam": "",
+                "salary": "",
+                "number": "",
+                "education": "",
+                "spouse": "",
+                "parents": "",
+                "children": "",
+                "siblings": "",
+                "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                "players": [
+                    {
+                        "stats": [
+                            {
+
+                            }
+                        ],
+                        "field": [
+                            {
+                              "position": "",
+                              "bats": "",
+                              "throws": ""
+                            }
+                        ]
+                    }
+                ]},{ "id": "3",
+                    "name": " ",
+                    "nickname": "",
+                    "pic": "/imagen/NY/players/AaronJudge.jpeg",
+                    "born": "",
+                    "city": "",
+                    "state": "",
+                    "country": "USA",
+                    "age": "",
+                    "height": "",
+                    "weight": "",
+                    "currentTeam": "",
+                    "salary": "",
+                    "number": "",
+                    "education": "",
+                    "spouse": "",
+                    "parents": "",
+                    "children": "",
+                    "siblings": "",
+                    "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                    "players": [
+                        {
+                            "stats": [
+                                {
+ 
+                                }
+                            ],
+                            "field": [
+                                {
+                                  "position": "",
+                                  "bats": "",
+                                  "throws": ""
+                                }
+                            ]
+                        }
+                    ]},{ "id": "4",
+                        "name": " ",
+                        "nickname": "",
+                        "pic": "/imagen/NY/players/AaronJudge.jpeg",
+                        "born": "",
+                        "city": "",
+                        "state": "",
+                        "country": "USA",
+                        "age": "",
+                        "height": "",
+                        "weight": "",
+                        "currentTeam": "",
+                        "salary": "",
+                        "number": "",
+                        "education": "",
+                        "spouse": "",
+                        "parents": "",
+                        "children": "",
+                        "siblings": "",
+                        "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                        "players": [
+                            {
+                                "stats": [
+                                    {
+     
+                                    }
+                                ],
+                                "field": [
+                                    {
+                                      "position": "",
+                                      "bats": "",
+                                      "throws": ""
+                                    }
+                                ]
+                            }
+                        ]}
+        ]
+       },{
+        "id": "7",
+        "name": "St. Louis Cardinals",
+        "imag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/St._Louis_Cardinals_logo.svg/1200px-St._Louis_Cardinals_logo.svg.png",
+        "atlantaBraves": [
+            {
+                "id": "1",
+                "name": " ",
+                "nickname": "",
+                "pic": "/imagen/NY/players/AaronJudge.jpeg",
+                "born": "",
+                "city": "",
+                "state": "",
+                "country": "USA",
+                "age": "",
+                "height": "",
+                "weight": "",
+                "currentTeam": "",
+                "salary": "",
+                "number": "",
+                "education": "",
+                "spouse": "",
+                "parents": "",
+                "children": "",
+                "siblings": "",
+                "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                "players": [
+                    {
+                        "stats": [
+                            {
+
+                            }
+                        ],
+                        "field": [
+                            {
+                              "position": "",
+                              "bats": "",
+                              "throws": ""
+                            }
+                        ]
+                    }
+                ]
+            },{ "id": "2",
+                "name": " ",
+                "nickname": "",
+                "pic": "/imagen/NY/players/AaronJudge.jpeg",
+                "born": "",
+                "city": "",
+                "state": "",
+                "country": "USA",
+                "age": "",
+                "height": "",
+                "weight": "",
+                "currentTeam": "",
+                "salary": "",
+                "number": "",
+                "education": "",
+                "spouse": "",
+                "parents": "",
+                "children": "",
+                "siblings": "",
+                "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                "players": [
+                    {
+                        "stats": [
+                            {
+
+                            }
+                        ],
+                        "field": [
+                            {
+                              "position": "",
+                              "bats": "",
+                              "throws": ""
+                            }
+                        ]
+                    }
+                ]},{ "id": "3",
+                    "name": " ",
+                    "nickname": "",
+                    "pic": "/imagen/NY/players/AaronJudge.jpeg",
+                    "born": "",
+                    "city": "",
+                    "state": "",
+                    "country": "USA",
+                    "age": "",
+                    "height": "",
+                    "weight": "",
+                    "currentTeam": "",
+                    "salary": "",
+                    "number": "",
+                    "education": "",
+                    "spouse": "",
+                    "parents": "",
+                    "children": "",
+                    "siblings": "",
+                    "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                    "players": [
+                        {
+                            "stats": [
+                                {
+ 
+                                }
+                            ],
+                            "field": [
+                                {
+                                  "position": "",
+                                  "bats": "",
+                                  "throws": ""
+                                }
+                            ]
+                        }
+                    ]},{ "id": "4",
+                        "name": " ",
+                        "nickname": "",
+                        "pic": "/imagen/NY/players/AaronJudge.jpeg",
+                        "born": "",
+                        "city": "",
+                        "state": "",
+                        "country": "USA",
+                        "age": "",
+                        "height": "",
+                        "weight": "",
+                        "currentTeam": "",
+                        "salary": "",
+                        "number": "",
+                        "education": "",
+                        "spouse": "",
+                        "parents": "",
+                        "children": "",
+                        "siblings": "",
+                        "about": "Aaron James Judge is an American professional baseball right fielder for the New York Yankees of Major League Baseball. Judge was unanimously selected as the American League Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.",
+                        "players": [
+                            {
+                                "stats": [
+                                    {
+     
+                                    }
+                                ],
+                                "field": [
+                                    {
+                                      "position": "",
+                                      "bats": "",
+                                      "throws": ""
+                                    }
+                                ]
+                            }
+                        ]}
+        ]
        }
    ]
 }
