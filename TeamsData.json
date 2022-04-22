@@ -159,7 +159,7 @@
        },{
         "id": "2",
         "name": "New York Mets",
-        "imag": "/imagen/Mets/metsICon.png",
+        "imag": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/New_York_Mets.svg/1200px-New_York_Mets.svg.png",
         "newYorkMets": [
             {
                 "id": "1",
@@ -308,7 +308,7 @@
        },{
         "id": "3",
         "name": "Boston Red Sox",
-        "imag": "/imagen/RedSox/redICon.webp",
+        "imag": "https://s.yimg.com/cv/apiv2/default/mlb/20211123/500x500/Boston-Red-Sox_wbg.png",
         "bostonRedSox": [
             {
                 "id": "1",
@@ -457,7 +457,7 @@
        },{
         "id": "4",
         "name": "Los Angels Dodgers",
-        "imag": "/imagen/Angels/dodICon.webp",
+        "imag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Los_Angeles_Angels_of_Anaheim.svg/1200px-Los_Angeles_Angels_of_Anaheim.svg.png",
         "losAngeslDodgers": [
             {
                 "id": "1",
@@ -606,7 +606,7 @@
        },{
         "id": "5",
         "name": "Atlanta Braves",
-        "imag": "/imagen/bravICon.png",
+        "imag": "https://s.yimg.com/cv/apiv2/default/mlb/20190319/500x500/braves_wbgs.png",
         "atlantaBraves": [
             {
                 "id": "1",
