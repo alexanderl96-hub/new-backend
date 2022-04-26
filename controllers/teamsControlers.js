@@ -3,10 +3,26 @@ const router = express.Router();
 
 const teamData = require("../TeamsData.json");
 
+//get all data, get group by id, get student by nameMacth
 router.get("/", (req, res) => {
-    res.json({ teamData })
+    let teams = teamData.teams;
+    let {start , end, name, player, gruop, salary, position} = req.query;
+    start = Number(start)
+    end = Number(end)
+    if(start && end){
+        teams = teams.filter(team => team.id >= start && team.id <= end)
+    }
+    if(name){
+        teams = teams.filter(team => team.name.includes(name))
+      }
+    //   if(player){
+    //     teams = teams.gruop.filter(team => team.city.includes(player))
+    //     console.log(teams, 'player')
+    //   }
+     res.json({teams})
 });
 
+//get individual students by id
 router.get("/:id", (req, res) => {
    const teamID = req.params.id;
    const teams = teamData.teams;
