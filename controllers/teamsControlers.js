@@ -19,7 +19,7 @@ router.get("/", (req, res) => {
     //     teams = teams.gruop.filter(team => team.city.includes(player))
     //     console.log(teams, 'player')
     //   }
-     res.json({teams})
+     res.json(teams)
 });
 
 //get individual students by id
