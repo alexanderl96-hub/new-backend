@@ -5,15 +5,15 @@ const { getAll, getOne, postOne, updateOne, deleteOne } = require("../queries/te
 router.get("/", async (req, res) => {
     let teams = await getAll()
     console.log(teams)
-    // let {start , end, name } = req.query;
-    // start = Number(start)
-    // end = Number(end)
-    // if(start && end){
-    //     teams = teams.filter(team => team.id >= start && team.id <= end)
-    // }
-    // if(name){
-    //     teams = teams.filter(team => team.name.includes(name))
-    //   }
+    let {start , end, name } = req.query;
+    start = Number(start)
+    end = Number(end)
+    if(start && end){
+        teams = teams.filter(team => team.id >= start && team.id <= end)
+    }
+    if(name){
+        teams = teams.filter(team => team.name.includes(name))
+      }
     //   if(player){
     //     teams = teams.gruop.filter(team => team.city.includes(player))
     //     console.log(teams, 'player')
