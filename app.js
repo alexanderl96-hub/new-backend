@@ -2,8 +2,11 @@ const express = require("express");
 const cors = require("cors"); 
 const app = express();
 
+const teamsControllers = require("./controllers/teamsControlers");
+
 app.use(cors());
-const teamsControllers = require("./controllers/teamsControlers")
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 app.use("/teams", teamsControllers)
 app.use("/teams/:id", teamsControllers)

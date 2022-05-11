@@ -1,20 +1,19 @@
 const express = require('express');
 const router = express.Router();
+const { getAll, getOne, postOne, updateOne, deleteOne } = require("../queries/teamsQueries");
 
-const teamData = require("../TeamsData.json");
-
-//get all data, get group by id, get student by nameMacth
-router.get("/", (req, res) => {
-    let teams = teamData.teams;
-    let {start , end, name, player, gruop, salary, position} = req.query;
-    start = Number(start)
-    end = Number(end)
-    if(start && end){
-        teams = teams.filter(team => team.id >= start && team.id <= end)
-    }
-    if(name){
-        teams = teams.filter(team => team.name.includes(name))
-      }
+router.get("/", async (req, res) => {
+    let teams = await getAll()
+    console.log(teams)
+    // let {start , end, name } = req.query;
+    // start = Number(start)
+    // end = Number(end)
+    // if(start && end){
+    //     teams = teams.filter(team => team.id >= start && team.id <= end)
+    // }
+    // if(name){
+    //     teams = teams.filter(team => team.name.includes(name))
+    //   }
     //   if(player){
     //     teams = teams.gruop.filter(team => team.city.includes(player))
     //     console.log(teams, 'player')
@@ -23,18 +22,54 @@ router.get("/", (req, res) => {
 });
 
 //get individual students by id
-router.get("/:id", (req, res) => {
-   const teamID = req.params.id;
-   const teams = teamData.teams;
-   const individual = teams.find((team) => team.id === teamID);
-   res.json({ individual})
-})
+router.get("/:id", async (req, res) => {
+  try {
+    const teamID = Number(req.params.id);
+    const existingTeam = await getOne(teamID);
+    if (existingTeam) {
+      let payload = {
+        status: 'Success', 
+        team: existingTeam
+      }
+      res.json(payload);
+    }else{
+      throw 'team id not found'
+    }
+  } catch (error) {
+    res.send('Sorry, no team found, try again later!!!')
+  }
+  
+});
 
-// router.get("/team/:id", (req, res) => {
-//     const memberID = req.params.id;
-//     const members = teamData.teams;
-//     const individual = teams.find((team) => team.id === teamID);
-//     res.json({ individual})
-//  })
+router.post("/", async (req, res) => {
+  try {
+    const teamData = req.body;
+    const individualTeam = await postOne(teamData)
+    res.json( individualTeam)
+  } catch (error) {
+    res.send('Sorry, POST router is not working, try again later!!!')
+  }
+ });
 
-module.exports = router
+router.put("/:id", async (req, res) => {
+   try {
+    const memberID = Number(req.params.id);
+    const teamData = req.body;
+    let individualTeam = await updateOne(teamData, memberID)
+    res.json( individualTeam)
+   } catch (error) {
+     res.send('Sorry, PUT router is not working, try again later!!!')
+   }
+ });
+
+router.delete("/:id", async (req, res) => {
+   try {
+    const memberID = Number(req.params.id);
+    await deleteOne(memberID)
+    res.json({status: 'Success', message: 'Team has been deleted successfully'})
+   } catch (error) {
+     res.send('Sorry, none team has been deleted, please try again or check DELETE router')
+   }
+ })
+
+module.exports = router;
