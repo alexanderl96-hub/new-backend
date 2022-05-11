@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS teams_BaseBall;
-CREATE DATABASE teams_BaseBall;
+DROP DATABASE IF EXISTS baseball;
+CREATE DATABASE baseball;
 
--- \c teams_BaseBall;
+\c baseball;
 
 CREATE TABLE teams(
     id SERIAL PRIMARY KEY,
@@ -56,4 +56,4 @@ CREATE TABLE teams(
 -- CREATE TABLE field (
    
 -- );
- 
+ --;
