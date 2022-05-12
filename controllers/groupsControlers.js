@@ -27,7 +27,7 @@ router.get("/:id", async (req, res) => {
 });
 router.get("/:id", async (req, res) => { 
   try {
-      const memberID = Number(req.params.id);
+      const memberID = Number(req.params.team_id);
       const groupMembers = await getAllFromTeam(memberID);
       
       if (groupMembers) {
