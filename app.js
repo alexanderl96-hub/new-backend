@@ -12,6 +12,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/teams", teamsControllers)
 app.use("/teams/:id", teamsControllers)
 app.use("/groups", groupsControllers)
+app.use("/groups/team_id", groupsControllers)
 
 
 app.get("/", (req, res) => {

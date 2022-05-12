@@ -25,7 +25,7 @@ router.get("/:id", async (req, res) => {
         res.send('Sorry, something went wrong Id not found...')
     }
 });
-router.get("/:id", async (req, res) => { 
+router.get("/:team_id", async (req, res) => { 
   try {
       const memberID = Number(req.params.team_id);
       const groupMembers = await getAllFromTeam(memberID);
