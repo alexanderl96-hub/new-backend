@@ -14,6 +14,7 @@ CREATE TABLE teams(
 -- -- \c group_dev;
 CREATE TABLE group_dev(
     id SERIAL PRIMARY KEY,
+    team_id INTEGER,
     name text,
     nickname text,
     imag text,

@@ -29,4 +29,5 @@ const deleteOne = async (id) =>{
     return  await db.oneOrNone('DELETE FROM teams WHERE id = $1', [id]);
 }
 
+
 module.exports = { getAll , getOne, postOne, updateOne, deleteOne };
