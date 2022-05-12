@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const  {getAll, getOne, postOne, updateOne, deleteOne ,getAllFromTeam}= require("../queries/groupsQueries");
+const  {getAll, getOne, postOne, updateOne, deleteOne ,getAllFromTeam } = require("../queries/groupsQueries");
 
 router.get("/", async (req, res) => { 
     let group = await getAll();
@@ -28,7 +28,6 @@ router.get("/:id", async (req, res) => {
 router.get("/team/:team_id", async (req, res) => { 
   try {
       const memberID = Number(req.params.team_id);
-      console.log(memberID)
       const groupMembers = await getAllFromTeam(memberID);
       console.log(groupMembers, 'groupMembers')
       
