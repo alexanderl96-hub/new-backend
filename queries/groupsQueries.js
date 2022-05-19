@@ -12,15 +12,15 @@ const getOne = async (id) =>{
     return await db.one("SELECT * FROM group_dev WHERE id = $1", [id]);
 }
 const postOne = async (groupData) =>{
-    const {  name, team_id, nickname, imag, born, city, state, country, age, height, weight, currentTeam, salary, number, education, spouse, parents, children, siblings, position, bats, throws, stats, about } = groupData;
+    const {  name, team_id, nickname, imag, born, city, state, country, age, height, weight, current_team, salary, number, education, spouse, parents, children, siblings, position, bats, throws, stats, about } = groupData;
 
     return await db.one(
      ` INSERT INTO group_dev 
-    (name,team_id, nickname, imag, born, city, state, country, age, height, weight, currentTeam, salary, number, education, spouse, parents, children, siblings, position, bats, throws, stats, about ) 
+    (name,team_id, nickname, imag, born, city, state, country, age, height, weight, current_team, salary, number, education, spouse, parents, children, siblings, position, bats, throws, stats, about ) 
     VALUES 
     ( $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24) 
     RETURNING * `, 
-     [name, team_id, nickname, imag, born, city, state, country, age, height, weight, currentTeam, salary, number, education, spouse, parents, children, siblings, position, bats, throws, stats, about]
+     [name, team_id, nickname, imag, born, city, state, country, age, height, weight, current_team, salary, number, education, spouse, parents, children, siblings, position, bats, throws, stats, about]
     );
 }
 
@@ -51,7 +51,7 @@ const updateOne = async ( groupData, id) =>{
     const stats = groupData.stats || existingGroup.stats;
     const about = groupData.about || existingGroup.about;
    
-    return  await db.one( "UPDATE group_dev SET name = $1, nickname = $2, imag = $3, born = $4, city = $5, state = $6, country = $7, age = $8, height = $9, weight = $10, currentTeam = $11, salary = $12, number = $13, education = $14, spouse = $15, parents = $16, children = $17, siblings = $18, position = $19, bats = $20, throws = $21, stats = $22, about = $23 WHERE id = $24 RETURNING * ", 
+    return  await db.one( "UPDATE group_dev SET name = $1, nickname = $2, imag = $3, born = $4, city = $5, state = $6, country = $7, age = $8, height = $9, weight = $10, current_team = $11, salary = $12, number = $13, education = $14, spouse = $15, parents = $16, children = $17, siblings = $18, position = $19, bats = $20, throws = $21, stats = $22, about = $23 WHERE id = $24 RETURNING * ", 
     [ name, nickname, imag, born, city, state, country, age, height, weight, currentTeam, salary, number, education, spouse, parents, children, siblings, position, bats, throws, stats, about, id]);
 }
 

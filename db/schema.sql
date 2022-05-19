@@ -25,7 +25,7 @@ CREATE TABLE group_dev(
     age INTEGER,
     height text,
     weight text,
-    currentTeam text,
+    current_team text,
     salary text,
     number text,
     education text,
