@@ -22,7 +22,7 @@ CREATE TABLE group_dev(
     city text,
     state text,
     country text,
-    age text,
+    age INTEGER,
     height text,
     weight text,
     currentTeam text,
