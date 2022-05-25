@@ -73,6 +73,38 @@ CREATE TABLE group_dev(
     career_hr INTEGER,
     career_average INTEGER
 );
+-- \c pitcher_stats;
+ CREATE TABLE pitcher_stats (
+    id SERIAL PRIMARY KEY,
+    players_id INTEGER,
+    game text,
+    game_date text,
+    ip INTEGER,
+    h INTEGER,
+    r INTEGER,
+    er INTEGER,
+    hr INTEGER,
+    bb INTEGER,
+    so INTEGER,
+    sv INTEGER,
+    era INTEGER
+);
+-- \c careerpitcher_stats;
+ CREATE TABLE careerpitcher_stats (
+    id SERIAL PRIMARY KEY,
+    players_id INTEGER,
+    game_year INTEGER,
+    team text,
+    career_gp INTEGER,
+    career_cg INTEGER,
+    career_er INTEGER,
+    career_so INTEGER,
+    career_w INTEGER,
+    career_l INTEGER,
+    career_sv INTEGER,
+    career_whip INTEGER,
+    career_era INTEGER
+);
 -- -- \c group_mets;
 -- CREATE TABLE group_mets(
 --     id SERIAL PRIMARY KEY,
