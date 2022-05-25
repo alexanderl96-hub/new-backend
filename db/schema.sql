@@ -40,60 +40,93 @@ CREATE TABLE group_dev(
     stats text
 );
 
+-- \c players_stats;
+ CREATE TABLE players_stats (
+    id SERIAL PRIMARY KEY,
+    players_id INTEGER,
+    game text,
+    game_date text,
+    ab INTEGER,
+    r INTEGER,
+    h INTEGER,
+    rb INTEGER,
+    bb INTEGER,
+    so INTEGER,
+    hr INTEGER,
+    sb INTEGER,
+    average INTEGER
+);
+
+-- \c careers_stats;
+ CREATE TABLE careers_stats (
+    id SERIAL PRIMARY KEY,
+    players_id INTEGER,
+    game_year INTEGER,
+    team text,
+    career_gp INTEGER,
+    career_ab INTEGER,
+    career_r INTEGER,
+    career_h INTEGER,
+    career_rbi INTEGER,
+    career_bb INTEGER,
+    career_so INTEGER,
+    career_hr INTEGER,
+    career_average INTEGER
+);
 -- -- \c group_mets;
-CREATE TABLE group_mets(
-    id SERIAL PRIMARY KEY,
-    name text,
-    nickname text,
-    imag text,
-    born text,
-    city text,
-    state text,
-    country text,
-    age text,
-    height text,
-    weight text,
-    currentTeam text,
-    salary text,
-    number text,
-    education text,
-    spouse text,
-    parents text,
-    children text,
-    siblings text,
-    about text,
-    position text,
-    bats text,
-    throws text,
-    stats text
-);
+-- CREATE TABLE group_mets(
+--     id SERIAL PRIMARY KEY,
+--     name text,
+--     nickname text,
+--     imag text,
+--     born text,
+--     city text,
+--     state text,
+--     country text,
+--     age text,
+--     height text,
+--     weight text,
+--     currentTeam text,
+--     salary text,
+--     number text,
+--     education text,
+--     spouse text,
+--     parents text,
+--     children text,
+--     siblings text,
+--     about text,
+--     position text,
+--     bats text,
+--     throws text,
+--     stats text
+-- );
 -- -- \c group_boston_rs;
-CREATE TABLE group_boston_rs(
-    id SERIAL PRIMARY KEY,
-    name text,
-    nickname text,
-    imag text,
-    born text,
-    city text,
-    state text,
-    country text,
-    age text,
-    height text,
-    weight text,
-    currentTeam text,
-    salary text,
-    number text,
-    education text,
-    spouse text,
-    parents text,
-    children text,
-    siblings text,
-    about text,
-    position text,
-    bats text,
-    throws text,
-    stats text
-);
+-- CREATE TABLE group_boston_rs(
+--     id SERIAL PRIMARY KEY,
+--     name text,
+--     nickname text,
+--     imag text,
+--     born text,
+--     city text,
+--     state text,
+--     country text,
+--     age text,
+--     height text,
+--     weight text,
+--     currentTeam text,
+--     salary text,
+--     number text,
+--     education text,
+--     spouse text,
+--     parents text,
+--     children text,
+--     siblings text,
+--     about text,
+--     position text,
+--     bats text,
+--     throws text,
+--     stats text
+-- );
 -- -- \c group_angels_d;
 -- CREATE TABLE group_angels_d(
 --     id SERIAL PRIMARY KEY,
