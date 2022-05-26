@@ -55,27 +55,27 @@ try {
 }
 });
 
-router.put("/:id", async (req, res) => {
-    try {
-     const memberID = Number(req.params.id);
-     const statsData = req.body;
-     let individualStats = await updateOne(statsData, memberID)
-     console.log(individualStats, 'updated')
-     res.json( individualStats)
-    } catch (error) {
-      res.send('Sorry, PUT router is not working, try again later!!!')
-    }
-  });
+// router.put("/:id", async (req, res) => {
+//     try {
+//      const memberID = Number(req.params.id);
+//      const statsData = req.body;
+//      let individualStats = await updateOne(statsData, memberID)
+//      console.log(individualStats, 'updated')
+//      res.json( individualStats)
+//     } catch (error) {
+//       res.send('Sorry, PUT router is not working, try again later!!!')
+//     }
+//   });
 
-  router.delete("/:id", async (req, res) => {
-    try {
-     const statsID = Number(req.params.id);
-     await deleteOne(statsID)
-     res.json({status: 'Success', message: 'Team has been deleted successfully'})
-    } catch (error) {
-      res.send('Sorry, none group has been deleted, please try again or check DELETE router')
-    }
-  })
+  // router.delete("/:id", async (req, res) => {
+  //   try {
+  //    const statsID = Number(req.params.id);
+  //    await deleteOne(statsID)
+  //    res.json({status: 'Success', message: 'Team has been deleted successfully'})
+  //   } catch (error) {
+  //     res.send('Sorry, none group has been deleted, please try again or check DELETE router')
+  //   }
+  // })
 
 
 
