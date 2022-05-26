@@ -71,7 +71,7 @@ CREATE TABLE group_dev(
     career_bb INTEGER,
     career_so INTEGER,
     career_hr INTEGER,
-    career_average INTEGER
+    career_average FLOAT(3)
 );
 -- \c pitcher_stats;
  CREATE TABLE pitcher_stats (
@@ -87,7 +87,7 @@ CREATE TABLE group_dev(
     bb INTEGER,
     so INTEGER,
     sv INTEGER,
-    era INTEGER
+    era FLOAT(3)
 );
 -- \c careerpitcher_stats;
  CREATE TABLE careerpitcher_stats (
@@ -103,7 +103,7 @@ CREATE TABLE group_dev(
     career_l INTEGER,
     career_sv INTEGER,
     career_whip INTEGER,
-    career_era INTEGER
+    career_era FLOAT(3)
 );
 -- -- \c group_mets;
 -- CREATE TABLE group_mets(
