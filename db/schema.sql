@@ -92,7 +92,7 @@ CREATE TABLE group_dev(
 -- \c careerpitcher_stats;
  CREATE TABLE careerpitcher_stats (
     id SERIAL PRIMARY KEY,
-    players_id INTEGER,
+    pitcher_id INTEGER,
     game_year INTEGER,
     team text,
     career_gp INTEGER,

@@ -110,12 +110,12 @@ INSERT INTO careers_stats (players_id, game_year, team, career_gp, career_ab, ca
 
 
 
-INSERT INTO pitcher_stats (players_id, game, game_date, ip, h, r, er, hr, bb, so, sv, era ) VALUES 
+INSERT INTO pitcher_stats ( players_id, game, game_date, ip, h, r, er, hr, bb, so, sv, era ) VALUES 
 (3, 'vs White Sox', 'May 22', 0.1, 2, 2, 2, 1, 1, 0, 9, 3.86),
 (3, '@ Orioles', 'May 17', 1.0, 3, 1, 1, 0, 0, 1, 9, 2.63), 
 (3, '@ Orioles', 'May 16', 1.0, 1, 1, 1, 1, 0, 2, 8, 2.13), 
 (3, '@ White Sox', 'May 14', 0.1, 2, 1, 1, 0, 1, 0, 8, 1.54);
-INSERT INTO careerpitcher_stats (players_id, game_year, team, career_gp, career_cg, career_er, career_so, career_w, career_l, career_sv, career_whip, career_era ) VALUES 
+INSERT INTO careerpitcher_stats ( pitcher_id, game_year, team, career_gp, career_cg, career_er, career_so, career_w, career_l, career_sv, career_whip, career_era ) VALUES 
 (3, 2022, 'Yankees', 17, 0, 6, 15, 0, 2, 9, 1.64, 3.86),
 (3, 2021, 'Yankees', 61, 0, 21, 97, 6, 4, 30, 1.31, 3.36),
 (3, 2020, 'Yankees', 13, 0, 4, 22, 1, 1, 3, 0.86, 3.09),
