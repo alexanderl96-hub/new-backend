@@ -54,7 +54,7 @@ CREATE TABLE group_dev(
     so INTEGER,
     hr INTEGER,
     sb INTEGER,
-    average INTEGER
+    average FLOAT(3)
 );
 
 -- \c careers_stats;

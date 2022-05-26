@@ -7,7 +7,7 @@ const getOne = async (id) =>{
     return  await db.one('SELECT * FROM players_stats WHERE id = $1', [id]);
 }
 const getOneFromStats = async (playerID) =>{
-    return await db.any("SELECT * FROM players_stats WHERE players_id = $1 ", [playerID]);
+    return await db.any("SELECT * FROM players_stats WHERE players_id = $1", [playerID]);
 }
 const postOne = async (statsData) =>{
     const { players_id, game, game_date, ab, r, h, rb, bb, so, hr, sb, average } = statsData;
@@ -35,7 +35,7 @@ const updateOne = async ( statsData, id) =>{
     const sb = statsData.sb || existingStats.sb;
     const average = statsData.average || existingStats.average;
    
-    return  await db.one( "UPDATE players_stats SET players_id = $1, game = $2, game_date = $3, ab = $4, r = $5, h = $6, rb = $7, bb = $8, so = $9, hr = $10, sb = $11, average = $12, WHERE id = $13 RETURNING * ", 
+    return  await db.one( "UPDATE players_stats SET players_id = $1, game = $2, game_date = $3, ab = $4, r = $5, h = $6, rb = $7, bb = $8, so = $9, hr = $10, sb = $11, average = $12 WHERE id = $13 RETURNING * ", 
     [ players_id, game, game_date, ab, r, h, rb, bb, so, hr, sb, average, id]);
 }
 
