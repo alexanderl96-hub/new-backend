@@ -114,7 +114,15 @@ INSERT INTO pitcher_stats ( players_id, game, game_date, ip, h, r, er, hr, bb, s
 (3, 'vs White Sox', 'May 22', 0.1, 2, 2, 2, 1, 1, 0, 9, 3.86),
 (3, '@ Orioles', 'May 17', 1.0, 3, 1, 1, 0, 0, 1, 9, 2.63), 
 (3, '@ Orioles', 'May 16', 1.0, 1, 1, 1, 1, 0, 2, 8, 2.13), 
-(3, '@ White Sox', 'May 14', 0.1, 2, 1, 1, 0, 1, 0, 8, 1.54);
+(3, '@ White Sox', 'May 14', 0.1, 2, 1, 1, 0, 1, 0, 8, 1.54),
+(3, 'vs Blue Jays', 'May 11', 1.0, 1, 1, 1, 0, 1, 1, 8, 0.79),
+(3, 'vs Rangers', 'May 9', 1.0, 1, 0, 0, 0, 0, 0, 7, 0.00),
+(3, '@ Royals', 'May 1', 1.0, 1, 0, 0, 0, 1, 0, 6, 0.00),
+(3, '@ Royals', 'Apr 30', 1.0, 0, 0, 0, 0, 0, 0, 5, 0.00),
+(3, 'vs Orioles', 'Apr 26', 1.0, 0, 0, 0, 0, 2, 2, 4, 0.00),
+(3, 'vs Guardians', 'Apr 22', 1.0, 1, 0, 0, 0, 0, 2, 4, 0.00),
+(3, 'total', 'Season', 14.0, 13, 6, 6, 2, 10, 15, 9, 3.86);
+-- ();
 INSERT INTO careerpitcher_stats ( pitcher_id, game_year, team, career_gp, career_cg, career_er, career_so, career_w, career_l, career_sv, career_whip, career_era ) VALUES 
 (3, 2022, 'Yankees', 17, 0, 6, 15, 0, 2, 9, 1.64, 3.86),
 (3, 2021, 'Yankees', 61, 0, 21, 97, 6, 4, 30, 1.31, 3.36),
@@ -122,7 +130,17 @@ INSERT INTO careerpitcher_stats ( pitcher_id, game_year, team, career_gp, career
 (3, 2019, 'Yankees', 60, 0, 14, 85, 3, 2, 37, 1.11, 2.21),
 (3, 2018, 'Yankees', 55, 0, 14, 93, 3, 0, 32, 1.05, 2.45), 
 (3, 2017, 'Yankees', 52, 0, 18, 69, 4, 3, 22, 1.13, 3.22),
-(3, 2016, 'Yankees', 31, 0, 7, 44, 3, 0, 20, 0.89, 2.01);
+(3, 2016, 'Yankees', 31, 0, 7, 44, 3, 0, 20, 0.89, 2.01), 
+(3, 2016, 'Cubs', 28, 0, 3, 46, 1, 1, 16, 0.83, 1.01),
+(3, 2015, 'Reds', 65, 0, 12, 116, 4, 4, 33, 1.15, 1.63),
+(3, 2014, 'Reds', 54, 0, 12, 106, 0, 3, 36, 0.83, 2.00),
+(3, 2013, 'Reds', 68, 0, 18, 112, 4, 5, 38, 1.04, 2.54),
+(3, 2012, 'Reds', 68, 0, 12, 122, 5, 5, 38, 0.81, 1.51),
+(3, 2011, 'Reds', 54, 0, 20, 71, 4, 1, 1, 1.30, 3.60),
+(3, 2010, 'Reds', 15, 0, 3, 19, 2, 2, 0, 1.05, 2.03),
+(3, null, 'Career', 641, 0, 164, 1017, 40, 33, 315, 1.06, 2.39);
+
+-- (),(),(),(),(),(),(),(),(),();
 
 -- INSERT INTO group_mets ( name, nickname, imag, born, city, state, country, age, height, weight, currentTeam, salary, number, education, spouse, parents, children, siblings, position, bats, throws, stats, about ) VALUES 
 -- ('Maxwell Martin Scherzer', 'Brown Eye', 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/28976.png', 'July 27, 1984', 'Chesterfield', 'MO', 'USA', '37 years', '6`3, (cm)', ', (kg)', 'New York Mets', '15 million USD (2016)', 21, '`Parkway Central High School`, `University of Missouri`', 'Erica May-Scherzer (m. 2013)' , 'Brad Scherzer, Jan Scherzer', null, null, 'Pitcher', null, null, null, 'Maxwell Martin Scherzer is an American professional baseball pitcher for the New York Mets of Major League Baseball. He previously played in MLB for the Arizona Diamondbacks, Detroit Tigers, Washington Nationals and Los Angeles Dodgers.'),
