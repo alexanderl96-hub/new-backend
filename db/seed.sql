@@ -53,9 +53,16 @@ INSERT INTO group_dev ( name, team_id, nickname, imag, born, city, state, countr
 ('Joseph Anthony "Trey" Mancini III', 8, null, 'https://i.pinimg.com/236x/0b/54/54/0b54544e0417dada2270bdaa44d37764.jpg', 'March 18, 1992', 'Winter Haven', 'FL', 'USA', 30, '6`3, (190cm)', '230 lbs, (104kg)', 'Baltimore Orioles', null, 16, 'Winter Haven High School, University of Notre Dame', null, 'Tony Mancini, Beth Mancini', null, null, 'Outfielder and First Baseman', 'Right', 'Right', 31, 'Joseph Anthony "Trey" Mancini III is an American professional baseball first baseman and outfielder for the Baltimore Orioles of Major League Baseball. He made his MLB debut in 2016.'),
 ('Brandon Michael Hyde', 8, null, 'https://img.playerswiki.com/uploads/biography/2019/08/22/brandon-hyde.jpg', 'October 3, 1973', 'Santa Rosa', 'CA', 'USA', 48, null, null, 'Baltimore Orioles', null, null, 'California State University Long Beach, Santa Rosa Junior College, Montgomery High School', 'Lisa Hyde', null, 'Colton Hyde', null, 'Baseball Manager, since 2018', null, null, 32, 'Brandon Michael Hyde is an American professional baseball manager for the Baltimore Orioles of Major League Baseball. Hyde had previously served as the bench coach, director of player development, and first base coach for the Chicago Cubs, and as a bench coach and interim manager for the Florida Marlins.'),
 ('Wander Samuel Franco Sr.', 9, 'El Patron', 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/40929.png', 'March 1, 2001', 'Baní',null, 'Dominican Republic', 21, '5`10, (178cm)', '189 lbs, (85kg)', 'Tampa Bay Rays', null, 5, null, null, 'Nancy Aybar, Wander Franco', null, null, 'Shortstop and Third Baseman', 'Both hands', 'Right', 33, 'Wander Samuel Franco Sr., nicknamed "El Patron", is a Dominican professional baseball shortstop for the Tampa Bay Rays of Major League Baseball. He made his MLB debut in 2021.'),
-('Brett Maverick Phillips', 9, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33822.png&w=350&h=254', 'May 30, 1994', 'Seminole','FL', 'USA', 27, '6`0, (183cm)', '195 lbs, (88kg)', 'Tampa Bay Rays', '545,000 USD (2018)', 35, 'Seminole High School', null, 'Brett James Phillips, Jody Phillips-Foushee', null, null, 'Outflieder and Centerfielder', 'left', null, 34, 'Brett Maverick Phillips is an American professional baseball outfielder for the Tampa Bay Rays of Major League Baseball. He previously played in MLB for the Milwaukee Brewers and Kansas City Royals.');
+('Brett Maverick Phillips', 9, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33822.png&w=350&h=254', 'May 30, 1994', 'Seminole','FL', 'USA', 27, '6`0, (183cm)', '195 lbs, (88kg)', 'Tampa Bay Rays', '545,000 USD (2018)', 35, 'Seminole High School', null, 'Brett James Phillips, Jody Phillips-Foushee', null, null, 'Outflieder and Centerfielder', 'left', null, 34, 'Brett Maverick Phillips is an American professional baseball outfielder for the Tampa Bay Rays of Major League Baseball. He previously played in MLB for the Milwaukee Brewers and Kansas City Royals.'),
+('Kevin James Kiermaier', 9, null, 'https://b.fssta.com/uploads/application/mlb/headshots/5587.png', 'April 22, 1990', 'Fort Wayne', 'IN', 'USA', 32, '6`1, (185cm)', ',(kg)', 'Tampa Bay Rays', '514,400 USD (2016)', 39, 'Parkland College, Bishop Luers High School', null, 'Chris Kiermaier, Jim Kiermaier', null, 'Dan Kiermaier, Steve Kiermaier', 'Centerfielder', 'Left', 'Right', 35, 'Kevin James Kiermaier is an American professional baseball center fielder for the Tampa Bay Rays of Major League Baseball. Kiermaier was part of amateur championship teams at both the high school and college levels'),
+('Kevin Forrest Cash', 9, null, 'https://larrybrownsports.com/wp-content/uploads/2020/10/kevin-cash.jpg', 'December 6, 1977', 'Tampa', 'FL', 'USA', 44, '6`0, (183cm)', '200 lbs, (90kg)', 'Tampa Bay Rays', null, null, 'Florida State University, Gaither High School', 'Emily Cash', 'Mike Cash, Patsy Cash', 'Jacob David Cash, Camden Cash, Ella Cash', null, 'Team Manager', null, null, 36, 'Kevin Forrest Cash is an American professional baseball manager and former player who is the manager of the Tampa Bay Rays of Major League Baseball. Previously, Cash played catcher in MLB for the Toronto Blue Jays, Tampa Bay Devil Rays, Boston Red Sox, New York Yankees, and Houston Astros.'),
+('Timothy Devon Anderson Jr', 10, null, 'https://b.fssta.com/uploads/application/mlb/headshots/7049.png', 'June 23, 1993', 'Tuscaloosa', 'AL', 'USA', 28, '6`1, (185cm)', '185 lbs, (184kg)', 'Chicago White Sox', '507,500 USD (2016)', 7, 'East Central Community College, Hillcrest High School', 'Bria Anderson (m. 2017)', null, null, null, 'Shortstop', null, null, 37, 'Timothy Devon Anderson Jr. is an American professional baseball shortstop for the Chicago White Sox of Major League Baseball. Anderson played college baseball at East Central Community College, and was selected in the first round of the 2013 MLB draft by the White Sox. He made his MLB debut in 2016.'),
+('Allen Lorenz "A. J." Pollock', 10, null, 'https://b.fssta.com/uploads/application/mlb/headshots/5230.png', 'December 5, 1987', 'Hebron', 'CT', 'USA', 34, '6`1, (185cm)', '210 lbs, (95kg)', 'Chicago White Sox', '10 million USD (2022)', 18, 'University of Notre Dame, Rham High School', 'Kate Newall (m. 2014)', null, 'Maddi Mae Pollock', null, 'Centerfielder', 'Right', 'Right', 38, 'Allen Lorenz "A. J." Pollock is an American professional baseball outfielder for the Chicago White Sox of Major League Baseball. He has previously played in MLB for the Arizona Diamondbacks and Los Angeles Dodgers. He played college baseball for the Notre Dame Fighting Irish.'),
+('Luis Robert Moirán', 10, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/39631.png', 'August 3, 1997', null, 'Guantanamo', 'Cuba', 24, '6`3, (192cm)', '220 lbs, (99kg)', 'Chicago White Sox', null, 88, null, null, 'Miguelina Moirán Centeno, Luis Robert Robles', null, null, 'Centerfielder', 'Right', 'Right', 39, 'Luis Robert Moirán is a Cuban professional baseball outfielder for the Chicago White Sox of Major League Baseball. He made his MLB debut in 2020.'),
+('Joseph William Kelly Jr.', 10, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31992.png&w=350&h=254', 'June 9, 1988', 'Anaheim', 'CA', 'USA', 33, '6`1, (185cm)', '174 lbs, (78kg)', 'Chicago White Sox', null, 17, 'Corona High School, University of California, Riverside', 'Ashley Parks (m. 2013)', 'Andrea Valencia, Joe Kelly Sr.', null, null, 'Pitcher and Leftfielder', 'Right', 'Right', 40, 'Joseph William Kelly Jr. is an American professional baseball pitcher for the Chicago White Sox of Major League Baseball. He has previously played in MLB for the St. Louis Cardinals, Boston Red Sox and Los Angeles Dodgers. He played college baseball for the UC Riverside Highlanders.'),
+('Anthony La Russa Jr.', 10, 'Tony La Russa', 'https://pressboxonline.com/wp-content/uploads/2021/05/mlb21_tony-larussa-800x445.jpg', 'October 4, 1944', 'Tampa', 'FL', 'USA', 77, null, null, 'Chicago White Sox', null, null, 'Florida State University: College of Law 1978, University of South Florida', 'Elaine Coker (m. 1973), Luzette Sarcone (m. 1965-1973)', null, 'Bianca La Russa, Devon La Russa, Andrea La Russa, Averie La Russa', null, 'Team Manager', null, null, 41, 'Anthony La Russa Jr. is an American professional baseball coach and former player who is the manager for the Chicago White Sox of Major League Baseball. His MLB career has spanned from 1963 to the present, in several roles. He is the former manager of the St. Louis Cardinals and Oakland Athletics.');
 
--- (),(),(),(),(),(),(),
+
 
 
 INSERT INTO players_stats (players_id, game, game_date, ab, r, h, rb, bb, so, hr, sb, average ) VALUES 
@@ -89,9 +96,8 @@ INSERT INTO players_stats (players_id, game, game_date, ab, r, h, rb, bb, so, hr
 (5, 'vs Giants', 'Apr 19', 7.0, 1, 1, 1, 0, 3, 10, 0, 2.50),
 (5, '@ Phillies', 'Apr 13', 5.0, 5, 1, 1, 0, 3, 7, 0, 3.27),
 (5, '@ Nationals', 'Apr 8', 6.0, 3, 3, 3, 1, 1, 6, 0, 4.50),
-(5, 'total', 'Season', 49.2, 36, 15, 14, 5, 11, 59, 0, 2.54);
+(5, 'total', 'Season', 49.2, 36, 15, 14, 5, 11, 59, 0, 2.54); 
 
--- (),(),(),(),(),(),(),;
 
 -- (),(),(),(),(),(),(),
 
@@ -133,11 +139,10 @@ INSERT INTO careers_stats (players_id, game_year, team, career_gp, career_ab, ca
 (4, 1997, 'Reds', 16, 49, 5, 12, 5, 2, 5, 0, 1),
 (4, null, 'Career', 1152, 3871, 519, 1017, 555, 303, 707, 126, 107);
 
+
+
 -- ()
 -- ;
-
-
-
 
 
 INSERT INTO pitcher_stats ( players_id, game, game_date, ip, h, r, er, hr, bb, so, sv, era ) VALUES 
@@ -151,7 +156,19 @@ INSERT INTO pitcher_stats ( players_id, game, game_date, ip, h, r, er, hr, bb, s
 (3, '@ Royals', 'Apr 30', 1.0, 0, 0, 0, 0, 0, 0, 5, 0.00),
 (3, 'vs Orioles', 'Apr 26', 1.0, 0, 0, 0, 0, 2, 2, 4, 0.00),
 (3, 'vs Guardians', 'Apr 22', 1.0, 1, 0, 0, 0, 0, 2, 4, 0.00),
-(3, 'total', 'Season', 14.0, 13, 6, 6, 2, 10, 15, 9, 3.86);
+(3, 'total', 'Season', 14.0, 13, 6, 6, 2, 10, 15, 9, 3.86),
+(7, '@ Giants', 'May 24', 4.1, 8, 8, 8, 3, 3, 4, 0, 3.91),
+(7, 'vs Cardinals', 'May 19', 6.1, 9, 4, 4, 2, 1, 3, 0, 2.77),
+(7, 'vs Mariners', 'May 14', 5.2, 5, 1, 1, 0, 3, 8, 0, 2.34),
+(7, '@ Phillies', 'May 8', 5.2, 5, 1, 1, 1, 1, 4, 0, 2.45),
+(7, 'vs Braves', 'May 2', 7.0, 6, 3, 3, 1, 1, 8, 0, 2.61),
+(7, '@ Cardinals', 'Apr 26', 6.0, 2, 0, 0, 0, 3, 6, 0, 2.25),
+(7, 'vs Giants', 'Apr 20', 6.0, 8, 5, 5, 1, 1, 6, 0, 3.00),
+(7, 'vs Diamondbacks', 'Apr 15', 6.0, 2, 1, 1, 1, 2, 6, 0, 0.75),
+(7, '@ Nationals', 'Apr 9', 6.0, 3, 0, 0, 0, 1, 8, 0, 0.00),
+(7, 'total', 'Season', 53.0, 48, 23, 23, 9, 16, 53, 0, 3.91); 
+
+-- (),(),(),(),(),(),(),;
 
 -- ();
 INSERT INTO careerpitcher_stats ( pitcher_id, game_year, team, career_gp, career_cg, career_er, career_so, career_w, career_l, career_sv, career_whip, career_era ) VALUES 
@@ -169,9 +186,25 @@ INSERT INTO careerpitcher_stats ( pitcher_id, game_year, team, career_gp, career
 (3, 2012, 'Reds', 68, 0, 12, 122, 5, 5, 38, 0.81, 1.51),
 (3, 2011, 'Reds', 54, 0, 20, 71, 4, 1, 1, 1.30, 3.60),
 (3, 2010, 'Reds', 15, 0, 3, 19, 2, 2, 0, 1.05, 2.03),
-(3, null, 'Career', 641, 0, 164, 1017, 40, 33, 315, 1.06, 2.39);
-
--- (),(),(),(),(),(),(),(),(),();
+(3, null, 'Career', 641, 0, 164, 1017, 40, 33, 315, 1.06, 2.39),
+(6, 2021, 'Mets', 15, 1, 11, 146, 7, 2, 0, 0.55, 1.08),
+(6, 2020, 'Mets', 12, 0, 18, 104, 4, 2, 0, 0.96, 2.38),
+(6, 2019, 'Mets', 32, 0, 55, 255, 11, 8, 0, 0.97, 2.43),
+(6, 2018, 'Mets', 32, 1, 41, 269, 10, 9, 0, 0.91, 1.70),
+(6, 2017, 'Mets', 31, 1, 79, 239, 15, 10, 0, 1.93, 3.53),
+(6, 2016, 'Mets', 24, 1, 50, 143, 7, 8, 0, 1.20, 3.04),
+(6, 2015, 'Mets', 30, 0, 54, 205, 14, 8, 0, 0.98, 2.54),
+(6, 2014, 'Mets', 22, 0, 42, 144, 9, 6, 0, 1.14, 2.69),
+(6, null, 'Career', 198, 4, 350, 1505, 77, 53, 0, 1.01, 2.50),
+(7, 2022, 'Mets', 9, 0, 23, 53, 4, 2, 0, 1.21, 3.91),
+(7, 2021, 'Athletics', 27, 1, 55, 159, 12, 4, 0, 1.06, 3.15),
+(7, 2020, 'Athletics', 11, 0, 16, 55, 5, 2, 0, 1.16, 2.29),
+(7, 2019, 'Athletics', 28, 0, 61, 141, 10, 5, 0, 1.19, 3.81),
+(7, 2018, 'Athletics', 11, 0, 16, 41, 2, 3, 0, 1.24, 3.02),
+(7, 2016, 'Athletics', 5, 0, 19, 23, 0, 2, 0, 1.75, 6.11),
+(7, 2015, 'Athletics', 18, 0, 34, 64, 1, 8, 0, 1.26, 3.56),
+(7, 2014, 'White Sox', 6, 0, 13, 21, 1, 1, 0, 1.58, 3.94),
+(7, null, 'Career', 115, 1, 237, 557, 35, 27, 0, 1.21, 3.50);
 
 -- INSERT INTO group_mets ( name, nickname, imag, born, city, state, country, age, height, weight, currentTeam, salary, number, education, spouse, parents, children, siblings, position, bats, throws, stats, about ) VALUES 
 -- ('Maxwell Martin Scherzer', 'Brown Eye', 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/28976.png', 'July 27, 1984', 'Chesterfield', 'MO', 'USA', '37 years', '6`3, (cm)', ', (kg)', 'New York Mets', '15 million USD (2016)', 21, '`Parkway Central High School`, `University of Missouri`', 'Erica May-Scherzer (m. 2013)' , 'Brad Scherzer, Jan Scherzer', null, null, 'Pitcher', null, null, null, 'Maxwell Martin Scherzer is an American professional baseball pitcher for the New York Mets of Major League Baseball. He previously played in MLB for the Arizona Diamondbacks, Detroit Tigers, Washington Nationals and Los Angeles Dodgers.'),

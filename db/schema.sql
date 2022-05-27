@@ -102,7 +102,7 @@ CREATE TABLE group_dev(
     career_w INTEGER,
     career_l INTEGER,
     career_sv INTEGER,
-    career_whip INTEGER,
+    career_whip FLOAT(3),
     career_era FLOAT(3)
 );
 -- -- \c group_mets;
