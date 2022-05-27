@@ -21,7 +21,6 @@ router.get("/", async (req, res) => {
      res.json(teams)
 });
 
-//get individual students by id
 router.get("/:id", async (req, res) => {
   try {
     const teamID = Number(req.params.id);
