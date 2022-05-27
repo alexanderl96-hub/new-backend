@@ -28,6 +28,7 @@ INSERT INTO group_dev ( name, team_id, nickname, imag, born, city, state, countr
 ('Jacob Anthony deGrom', 2, 'The deGrominator', 'https://www.statscrew.com/images/bio_photos/baseball/594798.jpg', 'June 19, 1988', 'DeLand', 'FL', 'USA', 33, '6`4, (193cm)', '185 lbs, (83kg)', 'New York Mets', '33.5 million USD (2022)', 48, 'Stetson University, Christian Academy', 'Stacey Harris (m. 2014)', null, null, null, 'Pitcher', 'Left', 'Right', 6, 'Jacob Anthony deGrom, nicknamed `The deGrominator`, is an American professional baseball pitcher for the New York Mets of Major League Baseball. Prior to playing professionally, deGrom attended Stetson University and played college baseball for the Stetson Hatters.'),
 ('Christopher M. Bassitt', 2, 'C Bass', 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33148.png', 'February 22, 1989', 'Curtice', 'OH', 'USA', 33, null, null, 'New York Mets', '510,000 USD (2016)', null, 'Genoa Area High School', null, null, null, 'Matt Bassitt', 'Pitcher' , null, null, 7, 'Christopher M. Bassitt is an American professional baseball pitcher for the New York Mets of Major League Baseball. He made his MLB debut with the Chicago White Sox in 2014 and played for the Oakland Athletics from 2015 to 2021.'),
 ('William Nathaniel Showalter III', 2, 'Buck', 'https://jewishvues.com/wp-content/uploads/2021/12/getting-to-know-SHOWALTER.jpg', 'May 23, 1956', 'DeFuniak Springs', 'FL', 'USA', 65, '5`10, (155cm)', ', (kg)', 'New York Mets', null, null, null, 'Angela Showalter` (m. 1983)', 'William Nathaniel Showalter, Lina Carrie Showalter', 'Nathan Showalter, Allie Showalter', null, 'Team Coached', null, null, 8, 'William Nathaniel `Buck` Showalter III is an American professional baseball manager for the New York Mets of Major League Baseball. Previously, he served as manager of the New York Yankees, Arizona Diamondbacks, Texas Rangers, and Baltimore Orioles.'),
+
 ('Trevor John Story', 3, 'True', 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32150.png', 'November 15, 1992', 'Irving', 'TX', 'USA', 29, '6`2, (188cm)', null, 'Boston Red Sox', '17.5 million USD (2021)', 10, 'Irving High School, Louisiana State University', null, 'Teddie Story, Ken Story', null, 'Tyler Story', 'Shotstop', null, null, 9, 'Trevor John Story is an American professional baseball second baseman for the Boston Red Sox of Major League Baseball. He has previously played in MLB for the Colorado Rockies. He made his MLB debut in 2016.'),
 ('Enrique Javier Hernández', 3, 'Kike', 'https://images.fantasypros.com/images/players/mlb/5522/headshot/250x250.png', 'August 24, 1991', 'San Juan', null, 'Puerto Rico', 30, '5`11, (155cm)', ', (kg)', 'Boston Red Sox', '520,000 USD (2016)', 5, null, 'Mariana Vicente (m. 2018)', 'Enrique Hernández Sr., Monica Gonzalez', null, null, 'Second Baseman', null, null, 10, 'Enrique Javier `Kike` Hernández is a Puerto Rican professional baseball utility player for the Boston Red Sox of Major League Baseball. He previously played in MLB for the Houston Astros, Miami Marlins and Los Angeles Dodgers.'),
 ('Jackie Bradley Jr.', 3, 'JBJ', 'https://b.fssta.com/uploads/application/mlb/headshots/5360.png', 'April 19, 1990', 'Richmond', 'VA', 'USA', 32, '5`10, (155cm)', '200 lbs, (kg)', 'Boston Red Sox', '6.1 million USD (2018)', 19, 'Prince George High School, University of South Carolina', 'Erin Helring (m. 2013)', 'Jackie Bradley, Sr, Alfreda Hagans', 'Emerson Bradley', null, 'Center Fielder', null, null, 11, 'Jackie Bradley Jr., nicknamed `JBJ`, is an American professional baseball right fielder for the Boston Red Sox of Major League Baseball. He previously played for the Milwaukee Brewers. Listed at 5 feet 10 inches and 200 pounds, he bats left and throws right-handed.'),
@@ -60,7 +61,10 @@ INSERT INTO group_dev ( name, team_id, nickname, imag, born, city, state, countr
 ('Allen Lorenz "A. J." Pollock', 10, null, 'https://b.fssta.com/uploads/application/mlb/headshots/5230.png', 'December 5, 1987', 'Hebron', 'CT', 'USA', 34, '6`1, (185cm)', '210 lbs, (95kg)', 'Chicago White Sox', '10 million USD (2022)', 18, 'University of Notre Dame, Rham High School', 'Kate Newall (m. 2014)', null, 'Maddi Mae Pollock', null, 'Centerfielder', 'Right', 'Right', 38, 'Allen Lorenz "A. J." Pollock is an American professional baseball outfielder for the Chicago White Sox of Major League Baseball. He has previously played in MLB for the Arizona Diamondbacks and Los Angeles Dodgers. He played college baseball for the Notre Dame Fighting Irish.'),
 ('Luis Robert Moirán', 10, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/39631.png', 'August 3, 1997', null, 'Guantanamo', 'Cuba', 24, '6`3, (192cm)', '220 lbs, (99kg)', 'Chicago White Sox', null, 88, null, null, 'Miguelina Moirán Centeno, Luis Robert Robles', null, null, 'Centerfielder', 'Right', 'Right', 39, 'Luis Robert Moirán is a Cuban professional baseball outfielder for the Chicago White Sox of Major League Baseball. He made his MLB debut in 2020.'),
 ('Joseph William Kelly Jr.', 10, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31992.png&w=350&h=254', 'June 9, 1988', 'Anaheim', 'CA', 'USA', 33, '6`1, (185cm)', '174 lbs, (78kg)', 'Chicago White Sox', null, 17, 'Corona High School, University of California, Riverside', 'Ashley Parks (m. 2013)', 'Andrea Valencia, Joe Kelly Sr.', null, null, 'Pitcher and Leftfielder', 'Right', 'Right', 40, 'Joseph William Kelly Jr. is an American professional baseball pitcher for the Chicago White Sox of Major League Baseball. He has previously played in MLB for the St. Louis Cardinals, Boston Red Sox and Los Angeles Dodgers. He played college baseball for the UC Riverside Highlanders.'),
-('Anthony La Russa Jr.', 10, 'Tony La Russa', 'https://pressboxonline.com/wp-content/uploads/2021/05/mlb21_tony-larussa-800x445.jpg', 'October 4, 1944', 'Tampa', 'FL', 'USA', 77, null, null, 'Chicago White Sox', null, null, 'Florida State University: College of Law 1978, University of South Florida', 'Elaine Coker (m. 1973), Luzette Sarcone (m. 1965-1973)', null, 'Bianca La Russa, Devon La Russa, Andrea La Russa, Averie La Russa', null, 'Team Manager', null, null, 41, 'Anthony La Russa Jr. is an American professional baseball coach and former player who is the manager for the Chicago White Sox of Major League Baseball. His MLB career has spanned from 1963 to the present, in several roles. He is the former manager of the St. Louis Cardinals and Oakland Athletics.');
+('Anthony La Russa Jr.', 10, 'Tony La Russa', 'https://pressboxonline.com/wp-content/uploads/2021/05/mlb21_tony-larussa-800x445.jpg', 'October 4, 1944', 'Tampa', 'FL', 'USA', 77, null, null, 'Chicago White Sox', null, null, 'Florida State University: College of Law 1978, University of South Florida', 'Elaine Coker (m. 1973), Luzette Sarcone (m. 1965-1973)', null, 'Bianca La Russa, Devon La Russa, Andrea La Russa, Averie La Russa', null, 'Team Manager', null, null, 41, 'Anthony La Russa Jr. is an American professional baseball coach and former player who is the manager for the Chicago White Sox of Major League Baseball. His MLB career has spanned from 1963 to the present, in several roles. He is the former manager of the St. Louis Cardinals and Oakland Athletics.'), 
+
+('José Enrique Ramírez', 11, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32801.png&w=350&h=254', 'September 17, 1992', null, 'Baní', 'Dominican Republic', 29, '5`9, (179cm)', '190 lbs, (86kg)', 'Cleveland Guardians', '12 million USD (2022)', 11, null, null, null, null, 'Third Baseman, Second Baseman and Shortstop', 'Both', 'Both', 42, 'José Enrique Ramírez is a Dominican professional baseball third baseman for the Cleveland Guardians of Major League Baseball. He signed with the Indians as an amateur free agent on November 26, 2009, and made his MLB debut on September 1, 2013.'),
+(),(),(),(),;
 
 
 
@@ -96,7 +100,18 @@ INSERT INTO players_stats (players_id, game, game_date, ab, r, h, rb, bb, so, hr
 (5, 'vs Giants', 'Apr 19', 7.0, 1, 1, 1, 0, 3, 10, 0, 2.50),
 (5, '@ Phillies', 'Apr 13', 5.0, 5, 1, 1, 0, 3, 7, 0, 3.27),
 (5, '@ Nationals', 'Apr 8', 6.0, 3, 3, 3, 1, 1, 6, 0, 4.50),
-(5, 'total', 'Season', 49.2, 36, 15, 14, 5, 11, 59, 0, 2.54); 
+(5, 'total', 'Season', 49.2, 36, 15, 14, 5, 11, 59, 0, 2.54),
+(9, '@ White Sox', 'May 26', 4, 2, 2, 4, 1, 2, 1, 1, 0.232),
+(9, '@ White Sox', 'May 25', 4, 0, 0, 0, 0, 2, 0, 0, 0.224),
+(9, '@ White Sox', 'May 24', 6, 2, 2, 4, 0, 4, 1, 0, 0.231),
+(9, 'vs Mariners', 'May 22', 4, 1, 1, 1, 1, 1, 1, 0, 0.226),
+(9, 'vs Mariners', 'May 21', 3, 0, 0, 1, 0, 0, 0, 0, 0.226),
+(9, 'vs Mariners', 'May 20', 4, 1, 1, 4, 0, 1, 1, 0, 0.231),
+(9, 'vs Mariners', 'May 19', 4, 5, 4, 7, 1, 0, 3, 1, 0.230),
+(9, 'vs Astros', 'May 18', 3, 1, 0, 0, 1, 2, 0, 0, 0.205),
+(9, 'vs Astros', 'May 17', 4, 1, 2, 0, 1, 0, 0, 0, 0.210),
+(9, 'vs Astros', 'May 16', 3, 1, 1, 1, 1, 0, 1, 1, 0.200),
+(9, 'total', 'Season', 151, 25, 35, 37, 17, 53, 9, 6, 0.232);
 
 
 -- (),(),(),(),(),(),(),
@@ -137,7 +152,15 @@ INSERT INTO careers_stats (players_id, game_year, team, career_gp, career_ab, ca
 (4, 1999, 'Reds', 139, 472, 56, 132, 72, 30, 79, 14, 17),
 (4, 1998, 'Reds', 58, 181, 24, 51, 28, 15, 36, 2, 6),
 (4, 1997, 'Reds', 16, 49, 5, 12, 5, 2, 5, 0, 1),
-(4, null, 'Career', 1152, 3871, 519, 1017, 555, 303, 707, 126, 107);
+(4, null, 'Career', 1152, 3871, 519, 1017, 555, 303, 707, 126, 107), 
+(9, 2022, 'Red Sox', 39, 151, 25, 35, 37, 17, 53, 9, 0.232),
+(9, 2021, 'Rockies', 142, 526, 88, 132, 75, 53, 139, 24, 0.251),
+(9, 2020, 'Rockies', 59, 235, 41, 68, 28, 24, 63, 11, 0.289),
+(9, 2019, 'Rockies', 145, 588, 111, 173, 85, 58, 174, 35, 0.294),
+(9, 2018, 'Rockies', 157, 598, 88, 174, 108, 47, 168, 37, 0.291),
+(9, 2017, 'Rockies', 145, 503, 68, 120, 82, 49, 191, 24, 0.239),
+(9, 2016, 'Rockies', 97, 372, 67, 101, 72, 35, 130, 27, 0.272),
+(9, null, 'Career', 784, 2973, 488, 803, 487, 283, 918, 167, 0.270);
 
 
 
