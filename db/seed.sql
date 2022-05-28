@@ -28,7 +28,6 @@ INSERT INTO group_dev ( name, team_id, nickname, imag, born, city, state, countr
 ('Jacob Anthony deGrom', 2, 'The deGrominator', 'https://www.statscrew.com/images/bio_photos/baseball/594798.jpg', 'June 19, 1988', 'DeLand', 'FL', 'USA', 33, '6`4, (193cm)', '185 lbs, (83kg)', 'New York Mets', '33.5 million USD (2022)', 48, 'Stetson University, Christian Academy', 'Stacey Harris (m. 2014)', null, null, null, 'Pitcher', 'Left', 'Right', 6, 'Jacob Anthony deGrom, nicknamed `The deGrominator`, is an American professional baseball pitcher for the New York Mets of Major League Baseball. Prior to playing professionally, deGrom attended Stetson University and played college baseball for the Stetson Hatters.'),
 ('Christopher M. Bassitt', 2, 'C Bass', 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33148.png', 'February 22, 1989', 'Curtice', 'OH', 'USA', 33, null, null, 'New York Mets', '510,000 USD (2016)', null, 'Genoa Area High School', null, null, null, 'Matt Bassitt', 'Pitcher' , null, null, 7, 'Christopher M. Bassitt is an American professional baseball pitcher for the New York Mets of Major League Baseball. He made his MLB debut with the Chicago White Sox in 2014 and played for the Oakland Athletics from 2015 to 2021.'),
 ('William Nathaniel Showalter III', 2, 'Buck', 'https://jewishvues.com/wp-content/uploads/2021/12/getting-to-know-SHOWALTER.jpg', 'May 23, 1956', 'DeFuniak Springs', 'FL', 'USA', 65, '5`10, (155cm)', ', (kg)', 'New York Mets', null, null, null, 'Angela Showalter` (m. 1983)', 'William Nathaniel Showalter, Lina Carrie Showalter', 'Nathan Showalter, Allie Showalter', null, 'Team Coached', null, null, 8, 'William Nathaniel `Buck` Showalter III is an American professional baseball manager for the New York Mets of Major League Baseball. Previously, he served as manager of the New York Yankees, Arizona Diamondbacks, Texas Rangers, and Baltimore Orioles.'),
-
 ('Trevor John Story', 3, 'True', 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32150.png', 'November 15, 1992', 'Irving', 'TX', 'USA', 29, '6`2, (188cm)', null, 'Boston Red Sox', '17.5 million USD (2021)', 10, 'Irving High School, Louisiana State University', null, 'Teddie Story, Ken Story', null, 'Tyler Story', 'Shotstop', null, null, 9, 'Trevor John Story is an American professional baseball second baseman for the Boston Red Sox of Major League Baseball. He has previously played in MLB for the Colorado Rockies. He made his MLB debut in 2016.'),
 ('Enrique Javier Hernández', 3, 'Kike', 'https://images.fantasypros.com/images/players/mlb/5522/headshot/250x250.png', 'August 24, 1991', 'San Juan', null, 'Puerto Rico', 30, '5`11, (155cm)', ', (kg)', 'Boston Red Sox', '520,000 USD (2016)', 5, null, 'Mariana Vicente (m. 2018)', 'Enrique Hernández Sr., Monica Gonzalez', null, null, 'Second Baseman', null, null, 10, 'Enrique Javier `Kike` Hernández is a Puerto Rican professional baseball utility player for the Boston Red Sox of Major League Baseball. He previously played in MLB for the Houston Astros, Miami Marlins and Los Angeles Dodgers.'),
 ('Jackie Bradley Jr.', 3, 'JBJ', 'https://b.fssta.com/uploads/application/mlb/headshots/5360.png', 'April 19, 1990', 'Richmond', 'VA', 'USA', 32, '5`10, (155cm)', '200 lbs, (kg)', 'Boston Red Sox', '6.1 million USD (2018)', 19, 'Prince George High School, University of South Carolina', 'Erin Helring (m. 2013)', 'Jackie Bradley, Sr, Alfreda Hagans', 'Emerson Bradley', null, 'Center Fielder', null, null, 11, 'Jackie Bradley Jr., nicknamed `JBJ`, is an American professional baseball right fielder for the Boston Red Sox of Major League Baseball. He previously played for the Milwaukee Brewers. Listed at 5 feet 10 inches and 200 pounds, he bats left and throws right-handed.'),
@@ -63,8 +62,8 @@ INSERT INTO group_dev ( name, team_id, nickname, imag, born, city, state, countr
 ('Joseph William Kelly Jr.', 10, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31992.png&w=350&h=254', 'June 9, 1988', 'Anaheim', 'CA', 'USA', 33, '6`1, (185cm)', '174 lbs, (78kg)', 'Chicago White Sox', null, 17, 'Corona High School, University of California, Riverside', 'Ashley Parks (m. 2013)', 'Andrea Valencia, Joe Kelly Sr.', null, null, 'Pitcher and Leftfielder', 'Right', 'Right', 40, 'Joseph William Kelly Jr. is an American professional baseball pitcher for the Chicago White Sox of Major League Baseball. He has previously played in MLB for the St. Louis Cardinals, Boston Red Sox and Los Angeles Dodgers. He played college baseball for the UC Riverside Highlanders.'),
 ('Anthony La Russa Jr.', 10, 'Tony La Russa', 'https://pressboxonline.com/wp-content/uploads/2021/05/mlb21_tony-larussa-800x445.jpg', 'October 4, 1944', 'Tampa', 'FL', 'USA', 77, null, null, 'Chicago White Sox', null, null, 'Florida State University: College of Law 1978, University of South Florida', 'Elaine Coker (m. 1973), Luzette Sarcone (m. 1965-1973)', null, 'Bianca La Russa, Devon La Russa, Andrea La Russa, Averie La Russa', null, 'Team Manager', null, null, 41, 'Anthony La Russa Jr. is an American professional baseball coach and former player who is the manager for the Chicago White Sox of Major League Baseball. His MLB career has spanned from 1963 to the present, in several roles. He is the former manager of the St. Louis Cardinals and Oakland Athletics.'), 
 
-('José Enrique Ramírez', 11, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32801.png&w=350&h=254', 'September 17, 1992', null, 'Baní', 'Dominican Republic', 29, '5`9, (179cm)', '190 lbs, (86kg)', 'Cleveland Guardians', '12 million USD (2022)', 11, null, null, null, null, 'Third Baseman, Second Baseman and Shortstop', 'Both', 'Both', 42, 'José Enrique Ramírez is a Dominican professional baseball third baseman for the Cleveland Guardians of Major League Baseball. He signed with the Indians as an amateur free agent on November 26, 2009, and made his MLB debut on September 1, 2013.'),
-(),(),(),(),;
+('José Enrique Ramírez', 11, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32801.png&w=350&h=254', 'September 17, 1992', null, 'Baní', 'Dominican Republic', 29, '5`9, (179cm)', '190 lbs, (86kg)', 'Cleveland Guardians', '12 million USD (2022)', 11, null, null, null, null, null, 'Third Baseman, Second Baseman and Shortstop', 'Both', 'Both', 42, 'José Enrique Ramírez is a Dominican professional baseball third baseman for the Cleveland Guardians of Major League Baseball. He signed with the Indians as an amateur free agent on November 26, 2009, and made his MLB debut on September 1, 2013.');
+-- (),(),(),(),;
 
 
 
@@ -80,7 +79,7 @@ INSERT INTO players_stats (players_id, game, game_date, ab, r, h, rb, bb, so, hr
 (1, '@ Orioles', 'May 17', 5, 2, 4, 3, 0, 0, 2, 0, 0.315),
 (1, '@ White Sox', 'May 15', 4, 0, 0, 0, 0, 1, 0, 0, 0.296),
 (1, '@ White Sox', 'May 14', 3, 1, 1, 0, 1, 1, 0, 0, 0.306),
-(1, 'total', 'Season', 156, 35, 49, 34, 19, 47, 17, 2, 0.314),
+(1, 'Regular', 'Season', 156, 35, 49, 34, 19, 47, 17, 2, 0.314),
 (2, 'vs White Sox', 'May 22', 4, 0, 0, 0, 0, 0, 0, 0, 0.238),
 (2, 'vs White Sox', 'May 21', 3, 1, 0, 1, 1, 1, 0, 0, 0.246),
 (2, '@ Orioles', 'May 19', 1, 0, 0, 0, 0, 1, 0, 0, 0.252),
@@ -91,7 +90,7 @@ INSERT INTO players_stats (players_id, game, game_date, ab, r, h, rb, bb, so, hr
 (2, '@ White Sox', 'May 14', 4, 0, 1, 0, 0, 2, 0, 0, 0.234),
 (2, '@ White Sox', 'May 13', 5, 1, 2, 3, 0, 0, 1, 0, 0.233),
 (2, '@ White Sox', 'May 12', 5, 1, 2, 3, 0, 2, 1, 0, 0.224),
-(2, 'total', 'Season', 130, 17, 31, 15, 20, 36, 5, 0, 0.238),
+(2, 'Regular', 'Season', 130, 17, 31, 15, 20, 36, 5, 0, 0.238),
 (5, 'vs Cardinals', 'May 18', 5.2, 7, 2, 1, 0, 0, 4, 0, 2.54),
 (5, 'vs Mariners', 'May 13', 7.0, 3, 1, 1, 0, 2, 6, 0, 2.66),
 (5, '@ Phillies', 'May 8', 6.0, 10, 3, 3, 1, 0, 7, 0, 2.92),
@@ -100,7 +99,7 @@ INSERT INTO players_stats (players_id, game, game_date, ab, r, h, rb, bb, so, hr
 (5, 'vs Giants', 'Apr 19', 7.0, 1, 1, 1, 0, 3, 10, 0, 2.50),
 (5, '@ Phillies', 'Apr 13', 5.0, 5, 1, 1, 0, 3, 7, 0, 3.27),
 (5, '@ Nationals', 'Apr 8', 6.0, 3, 3, 3, 1, 1, 6, 0, 4.50),
-(5, 'total', 'Season', 49.2, 36, 15, 14, 5, 11, 59, 0, 2.54),
+(5, 'Regular', 'Season', 49.2, 36, 15, 14, 5, 11, 59, 0, 2.54),
 (9, '@ White Sox', 'May 26', 4, 2, 2, 4, 1, 2, 1, 1, 0.232),
 (9, '@ White Sox', 'May 25', 4, 0, 0, 0, 0, 2, 0, 0, 0.224),
 (9, '@ White Sox', 'May 24', 6, 2, 2, 4, 0, 4, 1, 0, 0.231),
@@ -111,7 +110,20 @@ INSERT INTO players_stats (players_id, game, game_date, ab, r, h, rb, bb, so, hr
 (9, 'vs Astros', 'May 18', 3, 1, 0, 0, 1, 2, 0, 0, 0.205),
 (9, 'vs Astros', 'May 17', 4, 1, 2, 0, 1, 0, 0, 0, 0.210),
 (9, 'vs Astros', 'May 16', 3, 1, 1, 1, 1, 0, 1, 1, 0.200),
-(9, 'total', 'Season', 151, 25, 35, 37, 17, 53, 9, 6, 0.232);
+(9, 'Regular', 'Season', 151, 25, 35, 37, 17, 53, 9, 6, 0.232),
+(10, 'vs Orioles', 'May 28', 1, 0, 0, 0, 0, 0, 0, 0, 0.199),
+(10, 'vs Orioles', 'May 28', 5, 0, 1, 2, 0, 0, 0, 0, 0.200),
+(10, 'vs Orioles', 'May 27', 5, 1, 1, 0, 1, 0, 0, 0, 0.200),
+(10, '@ White Sox', 'May 26', 6, 1, 1, 1, 0, 1, 1, 0, 0.200),
+(10, '@ White Sox', 'May 25', 4, 0, 1, 0, 1, 1, 0, 0, 0.201),
+(10, '@ White Sox', 'May 24', 6, 2, 2, 2, 0, 1, 1, 0, 0.200),
+(10, 'vs Mariners', 'May 22', 5, 1, 2, 1, 0, 0, 0, 0, 0.195),
+(10, 'vs Mariners', 'May 21', 5, 1, 1, 0, 0, 0, 0, 0, 0.188),
+(10, 'vs Mariners', 'May 20', 3, 1, 2, 0, 1, 1, 0, 0, 0.188),
+(10, 'vs Mariners', 'May 19', 4, 0, 0, 0, 1, 0, 0, 0, 0.177),
+(10, 'Regular', 'Season', 180, 25, 36, 22, 16, 32, 3, 0, 0.200);
+
+-- (),(),(),(),(),(),(),;
 
 
 -- (),(),(),(),(),(),(),
@@ -160,7 +172,21 @@ INSERT INTO careers_stats (players_id, game_year, team, career_gp, career_ab, ca
 (9, 2018, 'Rockies', 157, 598, 88, 174, 108, 47, 168, 37, 0.291),
 (9, 2017, 'Rockies', 145, 503, 68, 120, 82, 49, 191, 24, 0.239),
 (9, 2016, 'Rockies', 97, 372, 67, 101, 72, 35, 130, 27, 0.272),
-(9, null, 'Career', 784, 2973, 488, 803, 487, 283, 918, 167, 0.270);
+(9, null, 'Career', 784, 2973, 488, 803, 487, 283, 918, 167, 0.270),
+
+(10, 2022, 'Red Sox', 43, 180, 25, 36, 22, 16, 32, 3, 0.200),
+(10, 2021, 'Red Sox', 134, 508, 84, 127, 60, 61, 110, 20, 0.250),
+(10, 2020, 'Dodgers', 48, 139, 20, 32, 20, 6, 31, 5, 0.230),
+(10, 2019, 'Dodgers', 130, 414, 57, 98, 64, 36, 97, 17, 0.237),
+(10, 2018, 'Dodgers', 145, 402, 67, 103, 52, 50, 78, 21, 0.256),
+(10, 2017, 'Dodgers', 140, 297, 46, 64, 37, 41, 80, 11, 0.215),
+(10, 2016, 'Dodgers', 109, 216, 25, 41, 18, 28, 64, 7, 0.190),
+(10, 2015, 'Dodgers', 76, 202, 24, 62, 22, 11, 46, 7, 0.307),
+(10, 2014, 'Marlins', 18, 40, 3, 7, 6, 4, 10, 2, 0.175),
+(10, 2014, 'Astros', 24, 81, 10, 23, 8, 8, 11, 1, 0.284),
+(10, null, 'Career', 867, 2479, 361, 593, 309, 261, 559, 94, 0.239);
+
+-- (),(),(),(),(),(),(),;
 
 
 
