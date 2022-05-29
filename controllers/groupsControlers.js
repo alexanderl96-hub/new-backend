@@ -4,6 +4,15 @@ const  {getAll, getOne, postOne, updateOne, deleteOne ,getAllFromTeam } = requir
 
 router.get("/", async (req, res) => { 
     let group = await getAll();
+    let {start , end, name } = req.query;
+    start = Number(start)
+    end = Number(end)
+    if(start && end){
+        group = group.filter(team => team.id >= start && team.id <= end)
+    }
+    if(name){
+        group = group.filter(team => team.name.includes(name))
+      }
     res.json(group);
 });
 
