@@ -60,7 +60,7 @@ router.put("/:id", async (req, res) => {
         let individualStats = await updateOne(teamData, memberID)
         res.json( individualStats)
     } catch (error) {
-        
+        console.log(error, error.message)
         res.send('Sorry, PUT router is not working, try again later!!!')
     }
     });

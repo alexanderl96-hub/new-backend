@@ -37,7 +37,7 @@ const updateOne = async ( teamData, id) =>{
     const career_era = teamData.career_era || existingPitcher.career_era;
 
     return  await db.one( "UPDATE careerpitcher_stats SET pitcher_id = $1, game_year = $2, team = $3, career_gp = $4, career_cg = $5, career_er = $6, career_so = $7, career_w = $8, career_l = $9, career_sv = $10, career_whip = $11, career_era = $12 WHERE id = $13 RETURNING * ", 
-    [pitcher_id, game_year, team, career_gp, career_cg, career_er, career_so, career_w, career_l, career_sv, career_whip, career_era]);
+    [pitcher_id, game_year, team, career_gp, career_cg, career_er, career_so, career_w, career_l, career_sv, career_whip, career_era, id]);
 }
 
 const deleteOne = async (id) =>{

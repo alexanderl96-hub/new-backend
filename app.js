@@ -5,9 +5,10 @@ const app = express();
 const teamsControllers = require("./controllers/teamsControlers");
 const groupsControllers = require("./controllers/groupsControlers");
 const playersStatsControllers = require("./controllers/playersStatsControlers");
+const playersCareerControllers = require("./controllers/playerCareerControlers");
 const pitchersStatsControllers = require("./controllers/pitcherStatsControlers");
-// const playersCareerControllers = require("./controllers/playersCareerControlers");
-// const pitchersCareerControllers = require("./controllers/pitchersCarrerControlers");
+const pitchersCareerControllers = require("./controllers/pitcherCareerControlers");
+
 
 
 app.use(cors());
@@ -17,9 +18,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/teams", teamsControllers)
 app.use("/groups", groupsControllers)
 app.use("/playersStats", playersStatsControllers)
-//app.use("/playersStatsCareer", playersStatsCareerControllers)
+app.use("/playersCareer", playersCareerControllers)
 app.use("/pitchersStats", pitchersStatsControllers)
-//app.use("/pitchersCarrer", pitchersCarrerControllers)
+app.use("/pitchersCarrer", pitchersCareerControllers)
 
 
 app.get("/", (req, res) => {
