@@ -61,9 +61,12 @@ INSERT INTO group_dev ( name, team_id, nickname, imag, born, city, state, countr
 ('Luis Robert Moirán', 10, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/39631.png', 'August 3, 1997', null, 'Guantanamo', 'Cuba', 24, '6`3, (192cm)', '220 lbs, (99kg)', 'Chicago White Sox', null, 88, null, null, 'Miguelina Moirán Centeno, Luis Robert Robles', null, null, 'Centerfielder', 'Right', 'Right', 39, 'Luis Robert Moirán is a Cuban professional baseball outfielder for the Chicago White Sox of Major League Baseball. He made his MLB debut in 2020.'),
 ('Joseph William Kelly Jr.', 10, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31992.png&w=350&h=254', 'June 9, 1988', 'Anaheim', 'CA', 'USA', 33, '6`1, (185cm)', '174 lbs, (78kg)', 'Chicago White Sox', null, 17, 'Corona High School, University of California, Riverside', 'Ashley Parks (m. 2013)', 'Andrea Valencia, Joe Kelly Sr.', null, null, 'Pitcher and Leftfielder', 'Right', 'Right', 40, 'Joseph William Kelly Jr. is an American professional baseball pitcher for the Chicago White Sox of Major League Baseball. He has previously played in MLB for the St. Louis Cardinals, Boston Red Sox and Los Angeles Dodgers. He played college baseball for the UC Riverside Highlanders.'),
 ('Anthony La Russa Jr.', 10, 'Tony La Russa', 'https://pressboxonline.com/wp-content/uploads/2021/05/mlb21_tony-larussa-800x445.jpg', 'October 4, 1944', 'Tampa', 'FL', 'USA', 77, null, null, 'Chicago White Sox', null, null, 'Florida State University: College of Law 1978, University of South Florida', 'Elaine Coker (m. 1973), Luzette Sarcone (m. 1965-1973)', null, 'Bianca La Russa, Devon La Russa, Andrea La Russa, Averie La Russa', null, 'Team Manager', null, null, 41, 'Anthony La Russa Jr. is an American professional baseball coach and former player who is the manager for the Chicago White Sox of Major League Baseball. His MLB career has spanned from 1963 to the present, in several roles. He is the former manager of the St. Louis Cardinals and Oakland Athletics.'), 
+('José Enrique Ramírez', 11, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32801.png&w=350&h=254', 'September 17, 1992', null, 'Baní', 'Dominican Republic', 29, '5`9, (179cm)', '190 lbs, (86kg)', 'Cleveland Guardians', '12 million USD (2022)', 11, null, null, null, null, null, 'Third Baseman, Second Baseman and Shortstop', 'Both', 'Both', 42, 'José Enrique Ramírez is a Dominican professional baseball third baseman for the Cleveland Guardians of Major League Baseball. He signed with the Indians as an amateur free agent on November 26, 2009, and made his MLB debut on September 1, 2013.'),
 
-('José Enrique Ramírez', 11, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32801.png&w=350&h=254', 'September 17, 1992', null, 'Baní', 'Dominican Republic', 29, '5`9, (179cm)', '190 lbs, (86kg)', 'Cleveland Guardians', '12 million USD (2022)', 11, null, null, null, null, null, 'Third Baseman, Second Baseman and Shortstop', 'Both', 'Both', 42, 'José Enrique Ramírez is a Dominican professional baseball third baseman for the Cleveland Guardians of Major League Baseball. He signed with the Indians as an amateur free agent on November 26, 2009, and made his MLB debut on September 1, 2013.');
--- (),(),(),(),;
+('Steven Kwan', 11, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/41996.png&w=350&h=254', 'September 5, 1997', 'Los Gatos', 'CA', 'USA', 24, '5`9, (179cm)', '170 lbs, (77kg)', 'Cleveland Guardians', null, null, null, null, null, null, null, 'Leftfielder', 'Left', 'Left', 43, 'Steven Kwan is an American professional baseball outfielder for the Cleveland Guardians of Major League Baseball. He made his MLB debut in 2022.'),
+('Joshua-Douglas James Naylor', 11, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/35066.png&w=350&h=254', 'June 22, 1997', 'Mississauga','ON', 'Canada', 24, '5`11, (155cm)', '250 lbs, (113kg)', 'Cleveland Guardians', null, null, null, null, 'Chris Naylor, Jenice Naylor', null, 'Noah Naylor, Miles Naylor', 'Outfielder and First Baseman', 'Left', 'Left', 44, 'Joshua-Douglas James Naylor is a Canadian professional baseball first baseman and outfielder for the Cleveland Guardians of Major League Baseball. He previously played for the San Diego Padres. Naylor was the 12th overall selection in the 2015 MLB draft, and he made his MLB debut for the Padres in 2019.'),
+('Shane Robert Bieber', 11, null, 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/40912.png&w=350&h=254', 'May 31, 1995', 'Orange', 'CA', 'USA', 26, '6`3, (192cm)', '200 lbs, (90kg)', 'Cleveland Guardians', null, 57, 'Laguna Hills High School, University of California, Santa Barbara', null, 'Chris Bieber, Kristine Bieber', null, null, 'Pitcher', 'Right', 'Right', 45, 'Shane Robert Bieber is an American professional baseball pitcher for the Cleveland Guardians of Major League Baseball. He was drafted by the Indians in the fourth round of the 2016 Major League Baseball draft.'),
+('Terrence Jon Francona', 11, 'Tito', 'https://media.lehighvalleylive.com/sports_impact/photo/terry-francona-59e7fe21a9521ee3.jpg', 'April 22, 1959', 'Aberdeen', 'SD', 'USA', 63, null, null, 'Cleveland Guardians', null, null, null, 'Jacque Lang (m. 1982)', 'Tito Francona, Roberta Jackson', 'Alyssa Francona, Nicholas Francona, Jamie Francona, Leah Francona', null, 'Team Manager', null, null, 46, 'Terrence Jon Francona, nicknamed "Tito", is an American baseball manager and former player who is the manager of the Cleveland Guardians in Major League Baseball.');
 
 
 
@@ -121,12 +124,31 @@ INSERT INTO players_stats (players_id, game, game_date, ab, r, h, rb, bb, so, hr
 (10, 'vs Mariners', 'May 21', 5, 1, 1, 0, 0, 0, 0, 0, 0.188),
 (10, 'vs Mariners', 'May 20', 3, 1, 2, 0, 1, 1, 0, 0, 0.188),
 (10, 'vs Mariners', 'May 19', 4, 0, 0, 0, 1, 0, 0, 0, 0.177),
-(10, 'Regular', 'Season', 180, 25, 36, 22, 16, 32, 3, 0, 0.200);
+(10, 'Regular', 'Season', 180, 25, 36, 22, 16, 32, 3, 0, 0.200),
+(11, 'vs Orioles', 'May 28', 4, 0, 1, 0, 0, 1, 0, 0, 0.221),
+(11, 'vs Orioles', 'May 28', 4, 1, 1, 1, 0, 0, 0, 0, 0.221),
+(11, 'vs Orioles', 'May 27', 5, 0, 2, 0, 0, 0, 0, 0, 0.220),
+(11, '@ White Sox', 'May 26', 1, 0, 0, 0, 0, 0, 0, 0, 0.213),
+(11, '@ White Sox', 'May 25', 4, 0, 1, 0, 0, 1, 0, 0, 0.214),
+(11, '@ White Sox', 'May 24', 4, 1, 2, 1, 1, 0, 0, 0, 0.213),
+(11, 'vs Mariners', 'May 22', 4, 0, 2, 0, 0, 1, 0, 0, 0.203),
+(11, 'vs Mariners', 'May 21', 4, 0, 0, 0, 0, 1, 0, 0, 0.193),
+(11, 'vs Mariners', 'May 20', 1, 1, 1, 3, 0, 0, 1, 0, 0.200),
+(11, 'vs Mariners', 'May 19', 3, 0, 1, 2, 1, 0, 0, 0, 0.193),
+(11, 'Season', 'Regular', 136, 8, 30, 16, 11, 3, 1, 1, 0.221),
+(13, '@ Diamondbacks', 'May 28', 2, 1, 0, 0, 2, 2, 0, 0, 0.307),
+(13, '@ Diamondbacks', 'May 27', 4, 0, 1, 0, 0, 0, 0, 1, 0.310),
+(13, '@ Diamondbacks', 'May 26', 5, 3, 4, 5, 0, 0, 1, 0, 0.312),
+(13, '@ Nationals', 'May 25', 3, 0, 0, 0, 1, 1, 0, 0, 0.297),
+(13, '@ Nationals', 'May 24', 4, 2, 0, 0, 1, 0, 0, 0, 0.302),
+(13, '@ Nationals', 'May 23', 5, 2, 3, 2, 0, 0, 0, 0, 0.310),
+(13, '@ Phillies', 'May 22', 5, 0, 0, 0, 0, 0, 0, 0, 0.301),
+(13, '@ Phillies', 'May 21', 5, 0, 0, 0, 0, 1, 0, 0, 0.311),
+(13, '@ Phillies', 'May 20', 5, 2, 3, 2, 0, 0, 0, 1, 0.322),
+(13, 'vs Diamondbacks', 'May 18', 4, 0, 1, 1, 0, 1, 0, 0, 0.312),
+(13, 'Season', 'Regular', 174, 32, 54, 28, 24, 24, 4, 4, 0.310);
 
--- (),(),(),(),(),(),(),;
 
-
--- (),(),(),(),(),(),(),
 
 INSERT INTO careers_stats (players_id, game_year, team, career_gp, career_ab, career_r, career_h, career_rbi, career_bb, career_so, career_hr, career_average) VALUES 
 (1, 2022, 'Yankees', 41, 156, 35, 49, 34, 19, 47, 17, 0.314),
@@ -173,7 +195,6 @@ INSERT INTO careers_stats (players_id, game_year, team, career_gp, career_ab, ca
 (9, 2017, 'Rockies', 145, 503, 68, 120, 82, 49, 191, 24, 0.239),
 (9, 2016, 'Rockies', 97, 372, 67, 101, 72, 35, 130, 27, 0.272),
 (9, null, 'Career', 784, 2973, 488, 803, 487, 283, 918, 167, 0.270),
-
 (10, 2022, 'Red Sox', 43, 180, 25, 36, 22, 16, 32, 3, 0.200),
 (10, 2021, 'Red Sox', 134, 508, 84, 127, 60, 61, 110, 20, 0.250),
 (10, 2020, 'Dodgers', 48, 139, 20, 32, 20, 6, 31, 5, 0.230),
@@ -184,14 +205,49 @@ INSERT INTO careers_stats (players_id, game_year, team, career_gp, career_ab, ca
 (10, 2015, 'Dodgers', 76, 202, 24, 62, 22, 11, 46, 7, 0.307),
 (10, 2014, 'Marlins', 18, 40, 3, 7, 6, 4, 10, 2, 0.175),
 (10, 2014, 'Astros', 24, 81, 10, 23, 8, 8, 11, 1, 0.284),
-(10, null, 'Career', 867, 2479, 361, 593, 309, 261, 559, 94, 0.239);
-
--- (),(),(),(),(),(),(),;
-
-
-
--- ()
--- ;
+(10, null, 'Career', 867, 2479, 361, 593, 309, 261, 559, 94, 0.239), 
+(11, 2022, 'Red Sox', 43, 136, 8, 30, 16, 11, 31, 1, 0.221),
+(11, 2021, 'Brewers', 134, 387, 39, 63, 29, 28, 132, 6, 0.163),
+(11, 2020, 'Red Sox', 55, 191, 32, 54, 22, 23, 48, 7, 0.283),
+(11, 2019, 'Red Sox', 147, 494, 69, 111, 62, 56, 155, 21, 0.225),
+(11, 2018, 'Red Sox', 144, 474, 76, 111, 59, 46, 137, 13, 0.234),
+(11, 2017, 'Red Sox', 133, 482, 58, 118, 63, 48, 124, 17, 0.245),
+(11, 2016, 'Red Sox', 156, 558, 94, 149, 87, 63, 143, 26, 0.267),
+(11, 2015, 'Red Sox', 74, 221, 43, 55, 43, 27, 69, 10, 0.249),
+(11, 2014, 'Red Sox', 127, 384, 45, 76, 30, 31, 121, 1, 0.198),
+(11, 2013, 'Red Sox', 37, 95, 18, 18, 10, 10, 31, 3, 0.189),
+(11, null, 'Career', 1050, 3422, 482, 785, 421, 343, 991, 105, 0.229),
+(12, 2011, 'Nationals', 91, 156, 12, 35, 6, 12, 23, 0, 2),
+(12, 2010, 'Rangers', 4, 7, 0, 2, 0, 0, 0, 0, 0),
+(12, 2010, 'Mets', 62, 169, 14, 35, 20, 10, 16, 0, 4),
+(12, 2009, 'Mets', 82, 271, 31, 68, 18, 25, 28, 1, 8),
+(12, 2008, 'Red Sox', 75, 152, 14, 41, 9, 16, 13, 0, 1),
+(12, 2007, 'Red Sox', 83, 207, 30, 51, 18, 7, 23, 3, 1),
+(12, 2006, 'Mets', 96, 235, 31, 56, 18, 19, 29, 1, 6),
+(12, 2005, 'Guardians', 49, 146, 11, 30, 8, 5, 18, 1, 6),
+(12, 2005, 'Red Sox', 47, 104, 14, 28, 16, 6, 12, 2, 1),
+(12, 2004, 'Dodgers', 138, 405, 47, 107, 47, 47, 41, 10, 3),
+(12, 2003, 'Dodgers', 148, 477, 39, 119, 34, 16, 59, 4, 4),
+(12, 2002, 'Dodgers', 115, 258, 37, 75, 28, 26, 38, 5, 7),
+(12, 2001, 'Dodgers', 134, 405, 38, 88, 29, 31, 58, 4, 0),
+(12, 2000, 'Dodgers', 109, 353, 39, 84, 32, 26, 53, 4, 4),
+(12, 1999, 'Dodgers', 11, 30, 2, 5, 3, 0, 4, 0, 0),
+(12, 1998, 'Dodgers', 29, 33, 1, 4, 0, 2, 8, 0, 0),
+(12, null, 'Career', 1273, 3408, 360, 828, 286, 248, 423, 35, 47),
+(13, 2022, 'Dodgers', 45, 174, 32, 54, 28, 24, 24, 4, 0.310),
+(13, 2021, 'Braves', 159, 600, 120, 180, 83, 85, 107, 31, 0.300),
+(13, 2020, 'Braves', 60, 214, 51, 73, 53, 45, 37, 13, 0.341),
+(13, 2019, 'Braves', 158, 597, 113, 176, 121, 87, 127, 38, 0.295),
+(13, 2018, 'Braves', 162, 618, 94, 191, 98, 76, 132, 23, 0.309),
+(13, 2017, 'Braves', 117, 440, 84, 135, 71, 65, 95, 28, 0.307),
+(13, 2016, 'Braves', 158, 589, 102, 178, 91, 89, 171, 34, 0.302),
+(13, 2015, 'Braves', 118, 416, 62, 115, 66, 56, 98, 18, 0.276),
+(13, 2014, 'Braves', 162, 607, 93, 175, 78, 90, 145, 18, 0.288),
+(13, 2013, 'Braves', 147, 551, 89, 176, 109, 66, 121, 23, 0.319),
+(13, 2012, 'Braves', 147, 540, 91, 140, 94, 64, 129, 23, 0.259),
+(13, 2011, 'Braves', 157, 571, 67, 161, 76, 53, 142, 21, 0.282),
+(13, 2010, 'Braves', 20, 24, 3, 4, 1, 0, 8, 1, 0.167),
+(13, null, 'Career', 1610, 5941, 1001, 1758, 969, 800, 1336, 275, 0.296);
 
 
 INSERT INTO pitcher_stats ( players_id, game, game_date, ip, h, r, er, hr, bb, so, sv, era ) VALUES 
@@ -253,7 +309,19 @@ INSERT INTO careerpitcher_stats ( pitcher_id, game_year, team, career_gp, career
 (7, 2016, 'Athletics', 5, 0, 19, 23, 0, 2, 0, 1.75, 6.11),
 (7, 2015, 'Athletics', 18, 0, 34, 64, 1, 8, 0, 1.26, 3.56),
 (7, 2014, 'White Sox', 6, 0, 13, 21, 1, 1, 0, 1.58, 3.94),
-(7, null, 'Career', 115, 1, 237, 557, 35, 27, 0, 1.21, 3.50);
+(7, null, 'Career', 115, 1, 237, 557, 35, 27, 0, 1.21, 3.50),
+(14, 2021, 'Dodgers', 17, 1, 31, 137, 8, 5, 0, 1.00, 2.59),
+(14, 2020, 'Reds', 11, 2, 14, 100, 5, 4, 0, 0.79, 1.73),
+(14, 2019, 'Reds', 10, 0, 40, 68, 2, 5, 0, 1.35, 6.39),
+(14, 2019, 'Guardians', 24, 1, 66, 185, 9, 8, 0, 1.21, 3.79),
+(14, 2018, 'Guardians', 28, 0, 43, 221, 12, 6, 1, 1.09, 2.21),
+(14, 2017, 'Guardians', 32, 0, 82, 196, 17, 9, 0, 1.37, 4.19),
+(14, 2016, 'Guardians', 35, 1, 90, 168, 12, 8, 0, 1.31, 4.26),
+(14, 2015, 'Guardians', 31, 1, 89, 170, 11, 12, 0, 1.31, 4.55),
+(14, 2014, 'Guardians', 26, 0, 71, 143, 5, 8, 0, 1.38, 4.18),
+(14, 2013, 'Guardians', 4, 0, 10, 11, 1, 2, 0, 1.82, 5.29),
+(14, 2012, 'Diamondbacks', 4, 0, 11, 17, 1, 2, 0, 1.65, 6.06),
+(14, null, 'Career', 222, 6, 547, 1416, 83, 69, 1, 1.24, 3.79);
 
 -- INSERT INTO group_mets ( name, nickname, imag, born, city, state, country, age, height, weight, currentTeam, salary, number, education, spouse, parents, children, siblings, position, bats, throws, stats, about ) VALUES 
 -- ('Maxwell Martin Scherzer', 'Brown Eye', 'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/28976.png', 'July 27, 1984', 'Chesterfield', 'MO', 'USA', '37 years', '6`3, (cm)', ', (kg)', 'New York Mets', '15 million USD (2016)', 21, '`Parkway Central High School`, `University of Missouri`', 'Erica May-Scherzer (m. 2013)' , 'Brad Scherzer, Jan Scherzer', null, null, 'Pitcher', null, null, null, 'Maxwell Martin Scherzer is an American professional baseball pitcher for the New York Mets of Major League Baseball. He previously played in MLB for the Arizona Diamondbacks, Detroit Tigers, Washington Nationals and Los Angeles Dodgers.'),
