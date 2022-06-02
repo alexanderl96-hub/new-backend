@@ -37,7 +37,7 @@ const updateOne = async ( groupData, id) =>{
     const age =  groupData.age || existingGroup.age;
     const height = groupData.height || existingGroup.height;
     const weight = groupData.weight || existingGroup.weight;
-    const currentTeam = groupData.currentTeam || existingGroup.currentTeam;
+    const currentTeam = groupData.current_team || existingGroup.current_team;
     const salary = groupData.salary || existingGroup.salary;
     const number = groupData.number || existingGroup.number;
     const education = groupData.education || existingGroup.education;
