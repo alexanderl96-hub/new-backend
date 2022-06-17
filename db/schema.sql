@@ -27,7 +27,7 @@ CREATE TABLE group_dev(
     weight text,
     current_team text,
     salary text,
-    number text,
+    number INTEGER,
     education text,
     spouse text,
     parents text,
@@ -37,7 +37,7 @@ CREATE TABLE group_dev(
     position text,
     bats text,
     throws text,
-    stats text
+    stats INTEGER
 );
 
 -- \c players_stats;
