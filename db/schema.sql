@@ -105,33 +105,17 @@ CREATE TABLE group_dev(
     career_whip FLOAT(3),
     career_era FLOAT(3)
 );
--- -- \c group_mets;
--- CREATE TABLE group_mets(
---     id SERIAL PRIMARY KEY,
---     name text,
---     nickname text,
---     imag text,
---     born text,
---     city text,
---     state text,
---     country text,
---     age text,
---     height text,
---     weight text,
---     currentTeam text,
---     salary text,
---     number text,
---     education text,
---     spouse text,
---     parents text,
---     children text,
---     siblings text,
---     about text,
---     position text,
---     bats text,
---     throws text,
---     stats text
--- );
+-- -- \c season;
+CREATE TABLE season(
+    id SERIAL PRIMARY KEY,
+    date INTEGER,
+    team_name text,
+    team_vs text,
+    image_team text,
+    image_vs text,
+    points_team INTEGER,
+    points_vs INTEGER
+);
 -- -- \c group_boston_rs;
 -- CREATE TABLE group_boston_rs(
 --     id SERIAL PRIMARY KEY,
