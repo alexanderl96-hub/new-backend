@@ -8,7 +8,7 @@ const playersStatsControllers = require("./controllers/playersStatsControlers");
 const playersCareerControllers = require("./controllers/playerCareerControlers");
 const pitchersStatsControllers = require("./controllers/pitcherStatsControlers");
 const pitchersCareerControllers = require("./controllers/pitcherCareerControlers");
-
+const seasonControllers = require("./controllers/seasonControlers")
 
 
 app.use(cors());
@@ -21,6 +21,7 @@ app.use("/playersStats", playersStatsControllers)
 app.use("/playersCareer", playersCareerControllers)
 app.use("/pitchersStats", pitchersStatsControllers)
 app.use("/pitchersCarrer", pitchersCareerControllers)
+app.use("/season", seasonControllers)
 
 
 app.get("/", (req, res) => {
