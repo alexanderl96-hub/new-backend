@@ -18,6 +18,7 @@ CREATE TABLE group_dev(
     name text,
     nickname text,
     imag text,
+    imag2 text,
     born text,
     city text,
     state text,
