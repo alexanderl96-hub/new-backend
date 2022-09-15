@@ -1,8 +1,3 @@
-DROP DATABASE IF EXISTS baseball;
-CREATE DATABASE baseball;
-
-\c baseball;
-
 CREATE TABLE teams(
     id SERIAL PRIMARY KEY,
     name text,
