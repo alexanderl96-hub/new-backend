@@ -53,7 +53,7 @@ const updateOne = async ( groupData, id) =>{
     const about = groupData.about || existingGroup.about;
     const teamID = groupData.teamID || existingGroup.teamID;
    
-    return  await db.one( "UPDATE group_dev SET name = $1, nickname = $2, imag = $3, born = $4, city = $5, state = $6, country = $7, age = $8, height = $9, weight = $10, current_team = $11, salary = $12, number = $13, education = $14, spouse = $15, parents = $16, children = $17, siblings = $18, position = $19, bats = $20, throws = $21, stats = $22, about = $23, imag2 = $24, teamID = $25 WHERE id = $26 RETURNING * ", 
+    return  await db.one( "UPDATE group_dev SET name = $1, nickname = $2, imag = $3, born = $4, city = $5, state = $6, country = $7, age = $8, height = $9, weight = $10, current_team = $11, salary = $12, number = $13, education = $14, spouse = $15, parents = $16, children = $17, siblings = $18, position = $19, bats = $20, throws = $21, stats = $22, about = $23, imag2 = $24, team_id = $25 WHERE id = $26 RETURNING * ", 
     [ name, nickname, imag, born, city, state, country, age, height, weight, currentTeam, salary, number, education, spouse, parents, children, siblings, position, bats, throws, stats, about, imag2, teamID, id]);
 }
 
