@@ -66,11 +66,14 @@ router.post("/", async (req, res) => {
 
 router.put("/:id", async (req, res) => {
    try {
-    const memberID = Number(req.params.id);
+    const id = Number(req.params.id);
     const groupData = req.body;
-    let individualGroup = await updateOne(groupData, memberID)
+    console.log(groupData, 'checking group data')
+    let individualGroup = await updateOne(groupData, id)
+    // console.log(individualGroup, 'checking group data')
     res.json( individualGroup)
    } catch (error) {
+    console.log(error)
      res.send('Sorry, PUT router is not working, try again later!!!')
    }
  });

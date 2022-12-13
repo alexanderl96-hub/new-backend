@@ -24,8 +24,9 @@ const postOne = async (groupData) =>{
     );
 }
 
-const updateOne = async ( groupData, id) =>{
+const updateOne = async (groupData, id) =>{
     const existingGroup = await getOne(id);
+
 
     const name = groupData.name || existingGroup.name;
     const imag = groupData.imag || existingGroup.imag;
@@ -52,9 +53,11 @@ const updateOne = async ( groupData, id) =>{
     const stats = groupData.stats || existingGroup.stats;
     const team_id = groupData.team_id || existingGroup.team_id;
     const about = groupData.about || existingGroup.about;
+    
+    // console.log(currentTeam )
    
-    return  await db.one( "UPDATE group_dev SET name = $1, nickname = $2, imag = $3, born = $4, city = $5, state = $6, country = $7, age = $8, height = $9, weight = $10, current_team = $11, salary = $12, number = $13, education = $14, spouse = $15, parents = $16, children = $17, siblings = $18, position = $19, bats = $20, throws = $21, stats = $22, about = $23, imag2 = $24, team_id = $25 WHERE id = $26 RETURNING * ", 
-    [ name, nickname, imag, born, city, state, country, age, height, weight, currentTeam, salary, number, education, spouse, parents, children, siblings, position, bats, throws, stats, team_id, about, imag2, id]);
+    return  await db.one("UPDATE group_dev SET name = $1, nickname = $2, imag = $3, born = $4, city = $5, state = $6, country = $7, age = $8, height = $9, weight = $10, current_team = $11, salary = $12, number = $13, education = $14, spouse = $15, parents = $16, children = $17, siblings = $18, position = $19, bats = $20, throws = $21, stats = $22, about = $23, imag2 = $24, team_id = $25 WHERE id = $26 RETURNING * ", 
+    [name, nickname, imag, born, city, state, country, age, height, weight, currentTeam, salary, number, education, spouse, parents, children, siblings, position, bats, throws, stats,  about, imag2, team_id, id]);
 }
 
 const deleteOne = async (id) =>{
