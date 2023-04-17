@@ -119,3 +119,15 @@ CREATE TABLE best_all_Times(
     imag text,
     sumary text
 );
+
+CREATE TABLE records(
+    id SERIAL PRIMARY KEY,
+    name text,
+    imag text,
+    record text,
+    modernDayRecord text,
+    closestSince text,
+    closestActivePlayer text,
+    closestUnderthirty text,
+    sumary text
+);
