@@ -112,57 +112,10 @@ CREATE TABLE season(
     points_team INTEGER,
     points_vs INTEGER
 );
--- -- \c group_boston_rs;
--- CREATE TABLE group_boston_rs(
---     id SERIAL PRIMARY KEY,
---     name text,
---     nickname text,
---     imag text,
---     born text,
---     city text,
---     state text,
---     country text,
---     age text,
---     height text,
---     weight text,
---     currentTeam text,
---     salary text,
---     number text,
---     education text,
---     spouse text,
---     parents text,
---     children text,
---     siblings text,
---     about text,
---     position text,
---     bats text,
---     throws text,
---     stats text
--- );
--- -- \c group_angels_d;
--- CREATE TABLE group_angels_d(
---     id SERIAL PRIMARY KEY,
---     name text,
---     nickname text,
---     imag text,
---     born text,
---     city text,
---     state text,
---     country text,
---     age text,
---     height text,
---     weight text,
---     currentTeam text,
---     salary text,
---     number text,
---     education text,
---     spouse text,
---     parents text,
---     children text,
---     siblings text,
---     about text,
---     position text,
---     bats text,
---     throws text,
---     stats text
--- );
+-- -- \c best_allTimes;
+CREATE TABLE best_all_Times(
+    id SERIAL PRIMARY KEY,
+    name text,
+    imag text,
+    sumary text
+);
